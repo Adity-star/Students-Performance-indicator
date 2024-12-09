@@ -1,3 +1,1 @@
-# mlops
-This is for practice only
- 
+## End To End ml projects

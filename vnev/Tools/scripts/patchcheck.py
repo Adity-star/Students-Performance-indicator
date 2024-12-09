@@ -50,8 +50,7 @@ def get_git_branch():
     try:
         return subprocess.check_output(cmd,
                                        stderr=subprocess.DEVNULL,
-                                       cwd=SRCDIR,
-                                       encoding='UTF-8')
+                                       cwd=SRCDIR)
     except subprocess.CalledProcessError:
         return None
 
@@ -65,34 +64,10 @@ def get_git_upstream_remote():
     try:
         subprocess.check_output(cmd,
                                 stderr=subprocess.DEVNULL,
-                                cwd=SRCDIR,
-                                encoding='UTF-8')
+                                cwd=SRCDIR)
     except subprocess.CalledProcessError:
         return "origin"
     return "upstream"
-
-
-def get_git_remote_default_branch(remote_name):
-    """Get the name of the default branch for the given remote
-
-    It is typically called 'main', but may differ
-    """
-    cmd = "git remote show {}".format(remote_name).split()
-    env = os.environ.copy()
-    env['LANG'] = 'C'
-    try:
-        remote_info = subprocess.check_output(cmd,
-                                              stderr=subprocess.DEVNULL,
-                                              cwd=SRCDIR,
-                                              encoding='UTF-8',
-                                              env=env)
-    except subprocess.CalledProcessError:
-        return None
-    for line in remote_info.splitlines():
-        if "HEAD branch:" in line:
-            base_branch = line.split(":")[1].strip()
-            return base_branch
-    return None
 
 
 @status("Getting base branch for PR",
@@ -101,16 +76,16 @@ def get_base_branch():
     if not os.path.exists(os.path.join(SRCDIR, '.git')):
         # Not a git checkout, so there's no base branch
         return None
-    upstream_remote = get_git_upstream_remote()
     version = sys.version_info
     if version.releaselevel == 'alpha':
-        base_branch = get_git_remote_default_branch(upstream_remote)
+        base_branch = "master"
     else:
         base_branch = "{0.major}.{0.minor}".format(version)
     this_branch = get_git_branch()
     if this_branch is None or this_branch == base_branch:
         # Not on a git PR branch, so there's no base branch
         return None
+    upstream_remote = get_git_upstream_remote()
     return upstream_remote + "/" + base_branch
 
 
@@ -130,8 +105,6 @@ def changed_files(base_branch=None):
         with subprocess.Popen(cmd.split(),
                               stdout=subprocess.PIPE,
                               cwd=SRCDIR) as st:
-            if st.wait() != 0:
-                sys.exit(f'error running {cmd}')
             for line in st.stdout:
                 line = line.decode().rstrip()
                 status_text, filename = line.split(maxsplit=1)
@@ -247,7 +220,7 @@ def regenerated_pyconfig_h_in(file_paths):
     else:
         return "not needed"
 
-def ci(pull_request):
+def travis(pull_request):
     if pull_request == 'false':
         print('Not a pull request; skipping')
         return
@@ -303,10 +276,10 @@ def main():
 if __name__ == '__main__':
     import argparse
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--ci',
+    parser.add_argument('--travis',
                         help='Perform pass/fail checks')
     args = parser.parse_args()
-    if args.ci:
-        ci(args.ci)
+    if args.travis:
+        travis(args.travis)
     else:
         main()
