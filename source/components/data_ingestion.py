@@ -2,7 +2,7 @@ import os
 import sys
 from source.exception import CustomException
 from source.logger import logging
-import pandas as pd
+import pandas as pd # type: ignore
 
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
@@ -58,3 +58,4 @@ if __name__=="__main__":
 
     modeltrainer=ModelTrainer()
     print(modeltrainer.initiate_model_trainer(train_arr,test_arr))
+
