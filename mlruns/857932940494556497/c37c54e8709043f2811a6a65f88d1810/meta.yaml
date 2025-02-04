@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/857932940494556497/c37c54e8709043f2811a6a65f88d1810/artifacts
+end_time: 1737480851355
+entry_point_name: ''
+experiment_id: '857932940494556497'
+lifecycle_stage: active
+run_id: c37c54e8709043f2811a6a65f88d1810
+run_name: orderly-midge-714
+run_uuid: c37c54e8709043f2811a6a65f88d1810
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737480851166
+status: 3
+tags: []
+user_id: Adiiii

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/857932940494556497/6d78075f406b412591a6670af7eb89cf/artifacts
+end_time: 1737480835762
+entry_point_name: ''
+experiment_id: '857932940494556497'
+lifecycle_stage: active
+run_id: 6d78075f406b412591a6670af7eb89cf
+run_name: classy-bug-354
+run_uuid: 6d78075f406b412591a6670af7eb89cf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737480835594
+status: 3
+tags: []
+user_id: Adiiii

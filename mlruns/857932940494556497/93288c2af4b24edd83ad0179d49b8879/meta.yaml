@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/857932940494556497/93288c2af4b24edd83ad0179d49b8879/artifacts
+end_time: 1737480648403
+entry_point_name: ''
+experiment_id: '857932940494556497'
+lifecycle_stage: active
+run_id: 93288c2af4b24edd83ad0179d49b8879
+run_name: sincere-shrimp-104
+run_uuid: 93288c2af4b24edd83ad0179d49b8879
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737480648216
+status: 4
+tags: []
+user_id: Adiiii

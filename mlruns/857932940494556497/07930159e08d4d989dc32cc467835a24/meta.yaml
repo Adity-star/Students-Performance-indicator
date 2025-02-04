@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/857932940494556497/07930159e08d4d989dc32cc467835a24/artifacts
+end_time: 1737480844028
+entry_point_name: ''
+experiment_id: '857932940494556497'
+lifecycle_stage: active
+run_id: 07930159e08d4d989dc32cc467835a24
+run_name: exultant-bird-433
+run_uuid: 07930159e08d4d989dc32cc467835a24
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737480843875
+status: 3
+tags: []
+user_id: Adiiii

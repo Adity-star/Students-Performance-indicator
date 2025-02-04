@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/857932940494556497/f52132e1471845ad85dff83bf53a316f/artifacts
+end_time: 1737480827865
+entry_point_name: ''
+experiment_id: '857932940494556497'
+lifecycle_stage: active
+run_id: f52132e1471845ad85dff83bf53a316f
+run_name: popular-rook-428
+run_uuid: f52132e1471845ad85dff83bf53a316f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737480827697
+status: 3
+tags: []
+user_id: Adiiii

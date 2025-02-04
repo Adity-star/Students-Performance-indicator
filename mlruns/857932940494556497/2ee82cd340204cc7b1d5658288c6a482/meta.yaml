@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/857932940494556497/2ee82cd340204cc7b1d5658288c6a482/artifacts
+end_time: 1737480702175
+entry_point_name: ''
+experiment_id: '857932940494556497'
+lifecycle_stage: active
+run_id: 2ee82cd340204cc7b1d5658288c6a482
+run_name: loud-sheep-323
+run_uuid: 2ee82cd340204cc7b1d5658288c6a482
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737480701997
+status: 3
+tags: []
+user_id: Adiiii

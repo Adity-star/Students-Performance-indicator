@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/857932940494556497/0e2cbbb1e6a44aa7b57a54933adc2be7/artifacts
+end_time: 1737480654456
+entry_point_name: ''
+experiment_id: '857932940494556497'
+lifecycle_stage: active
+run_id: 0e2cbbb1e6a44aa7b57a54933adc2be7
+run_name: suave-kit-153
+run_uuid: 0e2cbbb1e6a44aa7b57a54933adc2be7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737480654242
+status: 3
+tags: []
+user_id: Adiiii
