@@ -126,3 +126,11 @@
 +defaults/win-64::zlib-1.2.13-h8cc25b3_1
 +defaults/win-64::zstd-1.5.6-h8880b57_0
 # update specs: ['catboost']
+==> 2025-02-15 13:01:25 <==
+# cmd: C:\Users\Administrator\anaconda3\Scripts\conda-script.py remove xgboost
+# conda version: 24.11.3
+-defaults/win-64::_py-xgboost-mutex-2.0-cpu_0
+-defaults/win-64::libxgboost-2.1.1-h585ebfc_0
+-defaults/win-64::py-xgboost-2.1.1-py38haa95532_0
+-defaults/win-64::xgboost-2.1.1-py38haa95532_0
+# remove specs: ['xgboost']

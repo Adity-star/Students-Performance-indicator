@@ -12,7 +12,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.tree import DecisionTreeRegressor
-from xgboost import XGBRegressor
+#from xgboost import XGBRegressor
 
 from source.exception import CustomException
 from source.logger import logging
@@ -29,6 +29,7 @@ class ModelTrainer:
 
 
     def initiate_model_trainer(self,train_array,test_array):
+
         try:
             logging.info("Split training and test input data")
             X_train,y_train,X_test,y_test=(
@@ -37,15 +38,17 @@ class ModelTrainer:
                 test_array[:,:-1],
                 test_array[:,-1]
             )
+
             models = {
                 "Random Forest": RandomForestRegressor(),
                 "Decision Tree": DecisionTreeRegressor(),
                 "Gradient Boosting": GradientBoostingRegressor(),
                 "Linear Regression": LinearRegression(),
-                "XGBRegressor": XGBRegressor(),
+                #"XGBRegressor": XGBRegressor(),
                 "CatBoosting Regressor": CatBoostRegressor(verbose=False),
                 "AdaBoost Regressor": AdaBoostRegressor(),
             }
+            
             params={
                 "Decision Tree": {
                     'criterion':['squared_error', 'friedman_mse', 'absolute_error', 'poisson'],
@@ -67,10 +70,10 @@ class ModelTrainer:
                     'n_estimators': [8,16,32,64,128,256]
                 },
                 "Linear Regression":{},
-                "XGBRegressor":{
-                    'learning_rate':[.1,.01,.05,.001],
-                    'n_estimators': [8,16,32,64,128,256]
-                },
+                #"XGBRegressor":{
+                   # 'learning_rate':[.1,.01,.05,.001],
+                    #'n_estimators': [8,16,32,64,128,256]
+                #},
                 "CatBoosting Regressor":{
                     'depth': [6,8,10],
                     'learning_rate': [0.01, 0.05, 0.1],
@@ -95,6 +98,7 @@ class ModelTrainer:
             best_model_name = list(model_report.keys())[
                 list(model_report.values()).index(best_model_score)
             ]
+
             best_model = models[best_model_name]
 
             if best_model_score<0.6:
