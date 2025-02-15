@@ -1,0 +1,231 @@
+{
+  "build": "haa95532_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "C:\\Users\\Administrator\\anaconda3\\pkgs\\poppler-data-0.4.11-haa95532_1",
+  "files": [
+    "share/pkgconfig/poppler-data.pc",
+    "share/poppler/cidToUnicode/Adobe-CNS1",
+    "share/poppler/cidToUnicode/Adobe-GB1",
+    "share/poppler/cidToUnicode/Adobe-Japan1",
+    "share/poppler/cidToUnicode/Adobe-Korea1",
+    "share/poppler/nameToUnicode/Bulgarian",
+    "share/poppler/nameToUnicode/Greek",
+    "share/poppler/nameToUnicode/Thai",
+    "share/poppler/unicodeMap/Big5",
+    "share/poppler/unicodeMap/Big5ascii",
+    "share/poppler/unicodeMap/EUC-CN",
+    "share/poppler/unicodeMap/EUC-JP",
+    "share/poppler/unicodeMap/GBK",
+    "share/poppler/unicodeMap/ISO-2022-CN",
+    "share/poppler/unicodeMap/ISO-2022-JP",
+    "share/poppler/unicodeMap/ISO-2022-KR",
+    "share/poppler/unicodeMap/ISO-8859-6",
+    "share/poppler/unicodeMap/ISO-8859-7",
+    "share/poppler/unicodeMap/ISO-8859-8",
+    "share/poppler/unicodeMap/ISO-8859-9",
+    "share/poppler/unicodeMap/KOI8-R",
+    "share/poppler/unicodeMap/Latin2",
+    "share/poppler/unicodeMap/Shift-JIS",
+    "share/poppler/unicodeMap/TIS-620",
+    "share/poppler/unicodeMap/Windows-1255"
+  ],
+  "fn": "poppler-data-0.4.11-haa95532_1.conda",
+  "license": "GPL-2.0-or-later and GPL-3.0-or-later and BSD-3-Clause",
+  "link": {
+    "source": "C:\\Users\\Administrator\\anaconda3\\pkgs\\poppler-data-0.4.11-haa95532_1",
+    "type": 1
+  },
+  "md5": "db23abfa2bc126016ca26247f737a8b9",
+  "name": "poppler-data",
+  "package_tarball_full_path": "C:\\Users\\Administrator\\anaconda3\\pkgs\\poppler-data-0.4.11-haa95532_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "share/pkgconfig/poppler-data.pc",
+        "path_type": "hardlink",
+        "sha256": "707691380c922ee12582a61bf0a2a97bbf2a0d3352fe9a668a4ad7a7237918e9",
+        "sha256_in_prefix": "707691380c922ee12582a61bf0a2a97bbf2a0d3352fe9a668a4ad7a7237918e9",
+        "size_in_bytes": 265
+      },
+      {
+        "_path": "share/poppler/cidToUnicode/Adobe-CNS1",
+        "path_type": "hardlink",
+        "sha256": "3e72e52c617851408a410008bd6dc87b925f627e8285acfc5753274d4131c8f5",
+        "sha256_in_prefix": "3e72e52c617851408a410008bd6dc87b925f627e8285acfc5753274d4131c8f5",
+        "size_in_bytes": 97321
+      },
+      {
+        "_path": "share/poppler/cidToUnicode/Adobe-GB1",
+        "path_type": "hardlink",
+        "sha256": "3fd9899c969014a638572b2806eacc2a96bcd3bb8b6f096f3623db137382fa01",
+        "sha256_in_prefix": "3fd9899c969014a638572b2806eacc2a96bcd3bb8b6f096f3623db137382fa01",
+        "size_in_bytes": 151426
+      },
+      {
+        "_path": "share/poppler/cidToUnicode/Adobe-Japan1",
+        "path_type": "hardlink",
+        "sha256": "3b54706d4d6c20672f1c85b945a182dacbc647a406014083be611da67990e051",
+        "sha256_in_prefix": "3b54706d4d6c20672f1c85b945a182dacbc647a406014083be611da67990e051",
+        "size_in_bytes": 115643
+      },
+      {
+        "_path": "share/poppler/cidToUnicode/Adobe-Korea1",
+        "path_type": "hardlink",
+        "sha256": "e98ad4e7e04f6572f517aa68ccd45708ae51e99d22d2cb9136f1370a77be1f68",
+        "sha256_in_prefix": "e98ad4e7e04f6572f517aa68ccd45708ae51e99d22d2cb9136f1370a77be1f68",
+        "size_in_bytes": 91760
+      },
+      {
+        "_path": "share/poppler/nameToUnicode/Bulgarian",
+        "path_type": "hardlink",
+        "sha256": "00efe0a6ddd763df4fd239465d353dcd326738e396da805ab7994ae7b5315b3b",
+        "sha256_in_prefix": "00efe0a6ddd763df4fd239465d353dcd326738e396da805ab7994ae7b5315b3b",
+        "size_in_bytes": 630
+      },
+      {
+        "_path": "share/poppler/nameToUnicode/Greek",
+        "path_type": "hardlink",
+        "sha256": "eb4bd7a5aeb9c4f99308674d7df009612ea21cd7b76b5023043656327e9db529",
+        "sha256_in_prefix": "eb4bd7a5aeb9c4f99308674d7df009612ea21cd7b76b5023043656327e9db529",
+        "size_in_bytes": 125
+      },
+      {
+        "_path": "share/poppler/nameToUnicode/Thai",
+        "path_type": "hardlink",
+        "sha256": "3f7acc1a23fc18e81d6cee5046deb591936228fac624c2a6012cd0902502fb2d",
+        "sha256_in_prefix": "3f7acc1a23fc18e81d6cee5046deb591936228fac624c2a6012cd0902502fb2d",
+        "size_in_bytes": 3074
+      },
+      {
+        "_path": "share/poppler/unicodeMap/Big5",
+        "path_type": "hardlink",
+        "sha256": "31c276592bc6aa44bf0338757d73dede5dc4dd09eb79472ee7c0215282d47c46",
+        "sha256_in_prefix": "31c276592bc6aa44bf0338757d73dede5dc4dd09eb79472ee7c0215282d47c46",
+        "size_in_bytes": 133464
+      },
+      {
+        "_path": "share/poppler/unicodeMap/Big5ascii",
+        "path_type": "hardlink",
+        "sha256": "2a92ebe937550cefba3abaf33d20056234de3bc81c0e3a336349eb9499d12983",
+        "sha256_in_prefix": "2a92ebe937550cefba3abaf33d20056234de3bc81c0e3a336349eb9499d12983",
+        "size_in_bytes": 133839
+      },
+      {
+        "_path": "share/poppler/unicodeMap/EUC-CN",
+        "path_type": "hardlink",
+        "sha256": "4f90e3fd8ba4ca94bfe1eea1cacdf15ed5d02d77d09a55aa2bb9ef03816c4b1d",
+        "sha256_in_prefix": "4f90e3fd8ba4ca94bfe1eea1cacdf15ed5d02d77d09a55aa2bb9ef03816c4b1d",
+        "size_in_bytes": 67589
+      },
+      {
+        "_path": "share/poppler/unicodeMap/EUC-JP",
+        "path_type": "hardlink",
+        "sha256": "f4bacc9e75a81fc86414f686bf05b89e0396728994ff1bc5bb8ea503340b0ba0",
+        "sha256_in_prefix": "f4bacc9e75a81fc86414f686bf05b89e0396728994ff1bc5bb8ea503340b0ba0",
+        "size_in_bytes": 66176
+      },
+      {
+        "_path": "share/poppler/unicodeMap/GBK",
+        "path_type": "hardlink",
+        "sha256": "2693e8933084f2bebe5da193b7616cd25bd62fab38641bd8fec3f4af34c50e03",
+        "sha256_in_prefix": "2693e8933084f2bebe5da193b7616cd25bd62fab38641bd8fec3f4af34c50e03",
+        "size_in_bytes": 117814
+      },
+      {
+        "_path": "share/poppler/unicodeMap/ISO-2022-CN",
+        "path_type": "hardlink",
+        "sha256": "8696d96951fef68e182891c707f1ee66d25a1785b2a0d09c60d422db3df51dd7",
+        "sha256_in_prefix": "8696d96951fef68e182891c707f1ee66d25a1785b2a0d09c60d422db3df51dd7",
+        "size_in_bytes": 67033
+      },
+      {
+        "_path": "share/poppler/unicodeMap/ISO-2022-JP",
+        "path_type": "hardlink",
+        "sha256": "2f4641fac5148e6bb712a9bc9be8655c760c7596974ba3d05ad671d28dcebcf7",
+        "sha256_in_prefix": "2f4641fac5148e6bb712a9bc9be8655c760c7596974ba3d05ad671d28dcebcf7",
+        "size_in_bytes": 65913
+      },
+      {
+        "_path": "share/poppler/unicodeMap/ISO-2022-KR",
+        "path_type": "hardlink",
+        "sha256": "c19749f40658338a772262a23a64f7962c156ab0f12f385f9c8c61208e6d26ff",
+        "sha256_in_prefix": "c19749f40658338a772262a23a64f7962c156ab0f12f385f9c8c61208e6d26ff",
+        "size_in_bytes": 68259
+      },
+      {
+        "_path": "share/poppler/unicodeMap/ISO-8859-6",
+        "path_type": "hardlink",
+        "sha256": "a620e0c7ef3d6c8ae8f56f590ac21bbd5e42314f71077e7bcbf53d808c76c58e",
+        "sha256_in_prefix": "a620e0c7ef3d6c8ae8f56f590ac21bbd5e42314f71077e7bcbf53d808c76c58e",
+        "size_in_bytes": 524
+      },
+      {
+        "_path": "share/poppler/unicodeMap/ISO-8859-7",
+        "path_type": "hardlink",
+        "sha256": "5246aef75d0ed7ea4796f48a4f3e0ec1c3be7bef5138b5f041dcfb7aff022f20",
+        "sha256_in_prefix": "5246aef75d0ed7ea4796f48a4f3e0ec1c3be7bef5138b5f041dcfb7aff022f20",
+        "size_in_bytes": 584
+      },
+      {
+        "_path": "share/poppler/unicodeMap/ISO-8859-8",
+        "path_type": "hardlink",
+        "sha256": "82be4e7e2d0f084319542e4868631f440bacdd67f7b3f15179993108e04ec805",
+        "sha256_in_prefix": "82be4e7e2d0f084319542e4868631f440bacdd67f7b3f15179993108e04ec805",
+        "size_in_bytes": 605
+      },
+      {
+        "_path": "share/poppler/unicodeMap/ISO-8859-9",
+        "path_type": "hardlink",
+        "sha256": "049882b3cc7adfabe0f21ec640d3975a932c19746762e9380a426d49d462a998",
+        "sha256_in_prefix": "049882b3cc7adfabe0f21ec640d3975a932c19746762e9380a426d49d462a998",
+        "size_in_bytes": 626
+      },
+      {
+        "_path": "share/poppler/unicodeMap/KOI8-R",
+        "path_type": "hardlink",
+        "sha256": "e46b7a351dd44b17670a671dfe21c54b328c15a183d8333817dc820d4a6cf226",
+        "sha256_in_prefix": "e46b7a351dd44b17670a671dfe21c54b328c15a183d8333817dc820d4a6cf226",
+        "size_in_bytes": 904
+      },
+      {
+        "_path": "share/poppler/unicodeMap/Latin2",
+        "path_type": "hardlink",
+        "sha256": "02542912156229b76e3254e5f12c130fe8b33bc4242791f7f794325336fda3ed",
+        "sha256_in_prefix": "02542912156229b76e3254e5f12c130fe8b33bc4242791f7f794325336fda3ed",
+        "size_in_bytes": 1346
+      },
+      {
+        "_path": "share/poppler/unicodeMap/Shift-JIS",
+        "path_type": "hardlink",
+        "sha256": "938c672143600d578e589965647580d4ea303e823adfdebf46239b923fec3842",
+        "sha256_in_prefix": "938c672143600d578e589965647580d4ea303e823adfdebf46239b923fec3842",
+        "size_in_bytes": 65988
+      },
+      {
+        "_path": "share/poppler/unicodeMap/TIS-620",
+        "path_type": "hardlink",
+        "sha256": "4c1d7fd7e1792dbc115b61c34b61954efa7bfe00dc5bc2b0f3f5c3624df7db36",
+        "sha256_in_prefix": "4c1d7fd7e1792dbc115b61c34b61954efa7bfe00dc5bc2b0f3f5c3624df7db36",
+        "size_in_bytes": 451
+      },
+      {
+        "_path": "share/poppler/unicodeMap/Windows-1255",
+        "path_type": "hardlink",
+        "sha256": "41d788d5b7c7e8cee377f633dffec6514afcb82e84a377a48154a908d6afaf49",
+        "sha256_in_prefix": "41d788d5b7c7e8cee377f633dffec6514afcb82e84a377a48154a908d6afaf49",
+        "size_in_bytes": 638
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "bc1ac7d1ecfb2661c7c86b8238cd2c64a7ec82c97059bee3ca047506b002a6e0",
+  "size": 442746,
+  "subdir": "win-64",
+  "timestamp": 1673863618000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/poppler-data-0.4.11-haa95532_1.conda",
+  "version": "0.4.11"
+}

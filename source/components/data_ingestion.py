@@ -2,7 +2,7 @@ import os
 import sys
 from source.exception import CustomException
 from source.logger import logging
-import pandas as pd # type: ignore
+import pandas as pd 
 
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
@@ -12,7 +12,9 @@ from source.components.data_transformation import DataTransformationConfig
 
 from source.components.model_trainer import ModelTrainerConfig
 from source.components.model_trainer import ModelTrainer
+
 @dataclass
+
 class DataIngestionConfig:
     train_data_path: str=os.path.join('artifacts',"train.csv")
     test_data_path: str=os.path.join('artifacts',"test.csv")
@@ -39,7 +41,7 @@ class DataIngestion:
 
             test_set.to_csv(self.ingestion_config.test_data_path,index=False,header=True)
 
-            logging.info("Inmgestion of the data iss completed")
+            logging.info("Ingestion of the data is completed")
 
             return(
                 self.ingestion_config.train_data_path,

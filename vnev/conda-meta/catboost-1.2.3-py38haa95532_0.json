@@ -1,0 +1,690 @@
+{
+  "build": "py38haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [
+    "ipywidgets >=7.0,<9.0"
+  ],
+  "depends": [
+    "matplotlib-base",
+    "numpy >=1.16.0",
+    "pandas >=0.24.0",
+    "plotly",
+    "python >=3.8,<3.9.0a0",
+    "python-graphviz",
+    "scipy",
+    "six"
+  ],
+  "extracted_package_dir": "C:\\Users\\Administrator\\anaconda3\\pkgs\\catboost-1.2.3-py38haa95532_0",
+  "files": [
+    "Lib/site-packages/catboost-1.2.3.dist-info/INSTALLER",
+    "Lib/site-packages/catboost-1.2.3.dist-info/METADATA",
+    "Lib/site-packages/catboost-1.2.3.dist-info/RECORD",
+    "Lib/site-packages/catboost-1.2.3.dist-info/REQUESTED",
+    "Lib/site-packages/catboost-1.2.3.dist-info/WHEEL",
+    "Lib/site-packages/catboost-1.2.3.dist-info/direct_url.json",
+    "Lib/site-packages/catboost-1.2.3.dist-info/top_level.txt",
+    "Lib/site-packages/catboost/__init__.py",
+    "Lib/site-packages/catboost/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/catboost/__pycache__/carry.cpython-38.pyc",
+    "Lib/site-packages/catboost/__pycache__/core.cpython-38.pyc",
+    "Lib/site-packages/catboost/__pycache__/datasets.cpython-38.pyc",
+    "Lib/site-packages/catboost/__pycache__/dev_utils.cpython-38.pyc",
+    "Lib/site-packages/catboost/__pycache__/metrics.cpython-38.pyc",
+    "Lib/site-packages/catboost/__pycache__/monoforest.cpython-38.pyc",
+    "Lib/site-packages/catboost/__pycache__/plot_helpers.cpython-38.pyc",
+    "Lib/site-packages/catboost/__pycache__/text_processing.cpython-38.pyc",
+    "Lib/site-packages/catboost/__pycache__/utils.cpython-38.pyc",
+    "Lib/site-packages/catboost/__pycache__/version.cpython-38.pyc",
+    "Lib/site-packages/catboost/_catboost.pyd",
+    "Lib/site-packages/catboost/carry.py",
+    "Lib/site-packages/catboost/core.py",
+    "Lib/site-packages/catboost/datasets.py",
+    "Lib/site-packages/catboost/dev_utils.py",
+    "Lib/site-packages/catboost/eval/__init__.py",
+    "Lib/site-packages/catboost/eval/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/catboost/eval/__pycache__/_fold_model.cpython-38.pyc",
+    "Lib/site-packages/catboost/eval/__pycache__/_fold_models_handler.cpython-38.pyc",
+    "Lib/site-packages/catboost/eval/__pycache__/_fold_storage.cpython-38.pyc",
+    "Lib/site-packages/catboost/eval/__pycache__/_readers.cpython-38.pyc",
+    "Lib/site-packages/catboost/eval/__pycache__/_splitter.cpython-38.pyc",
+    "Lib/site-packages/catboost/eval/__pycache__/catboost_evaluation.cpython-38.pyc",
+    "Lib/site-packages/catboost/eval/__pycache__/evaluation_result.cpython-38.pyc",
+    "Lib/site-packages/catboost/eval/__pycache__/execution_case.cpython-38.pyc",
+    "Lib/site-packages/catboost/eval/__pycache__/factor_utils.cpython-38.pyc",
+    "Lib/site-packages/catboost/eval/__pycache__/log_config.cpython-38.pyc",
+    "Lib/site-packages/catboost/eval/__pycache__/utils.cpython-38.pyc",
+    "Lib/site-packages/catboost/eval/_fold_model.py",
+    "Lib/site-packages/catboost/eval/_fold_models_handler.py",
+    "Lib/site-packages/catboost/eval/_fold_storage.py",
+    "Lib/site-packages/catboost/eval/_readers.py",
+    "Lib/site-packages/catboost/eval/_splitter.py",
+    "Lib/site-packages/catboost/eval/catboost_evaluation.py",
+    "Lib/site-packages/catboost/eval/evaluation_result.py",
+    "Lib/site-packages/catboost/eval/execution_case.py",
+    "Lib/site-packages/catboost/eval/factor_utils.py",
+    "Lib/site-packages/catboost/eval/log_config.py",
+    "Lib/site-packages/catboost/eval/utils.py",
+    "Lib/site-packages/catboost/hnsw/__init__.py",
+    "Lib/site-packages/catboost/hnsw/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/catboost/hnsw/__pycache__/hnsw.cpython-38.pyc",
+    "Lib/site-packages/catboost/hnsw/_hnsw.pyd",
+    "Lib/site-packages/catboost/hnsw/hnsw.py",
+    "Lib/site-packages/catboost/metrics.py",
+    "Lib/site-packages/catboost/monoforest.py",
+    "Lib/site-packages/catboost/plot_helpers.py",
+    "Lib/site-packages/catboost/text_processing.py",
+    "Lib/site-packages/catboost/utils.py",
+    "Lib/site-packages/catboost/version.py",
+    "Lib/site-packages/catboost/widget/__init__.py",
+    "Lib/site-packages/catboost/widget/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/catboost/widget/__pycache__/callbacks.cpython-38.pyc",
+    "Lib/site-packages/catboost/widget/__pycache__/ipythonwidget.cpython-38.pyc",
+    "Lib/site-packages/catboost/widget/__pycache__/metrics_plotter.cpython-38.pyc",
+    "Lib/site-packages/catboost/widget/callbacks.py",
+    "Lib/site-packages/catboost/widget/ipythonwidget.py",
+    "Lib/site-packages/catboost/widget/metrics_plotter.py",
+    "etc/jupyter/nbconfig/notebook.d/catboost-widget.json",
+    "share/jupyter/labextensions/catboost-widget/package.json",
+    "share/jupyter/labextensions/catboost-widget/static/138.b93b952d8851db0de46b.js",
+    "share/jupyter/labextensions/catboost-widget/static/479.d43617224b25ecf15b1d.js",
+    "share/jupyter/labextensions/catboost-widget/static/479.d43617224b25ecf15b1d.js.LICENSE.txt",
+    "share/jupyter/labextensions/catboost-widget/static/486.bafd26b008c3405f7750.js",
+    "share/jupyter/labextensions/catboost-widget/static/486.bafd26b008c3405f7750.js.LICENSE.txt",
+    "share/jupyter/labextensions/catboost-widget/static/755.297bcad6e07632169fc2.js",
+    "share/jupyter/labextensions/catboost-widget/static/755.297bcad6e07632169fc2.js.LICENSE.txt",
+    "share/jupyter/labextensions/catboost-widget/static/908.81f6af6c7d6425b98663.js",
+    "share/jupyter/labextensions/catboost-widget/static/remoteEntry.407524146b5efa8ed8e9.js",
+    "share/jupyter/labextensions/catboost-widget/static/style.js",
+    "share/jupyter/nbextensions/catboost-widget/extension.js",
+    "share/jupyter/nbextensions/catboost-widget/index.js"
+  ],
+  "fn": "catboost-1.2.3-py38haa95532_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "C:\\Users\\Administrator\\anaconda3\\pkgs\\catboost-1.2.3-py38haa95532_0",
+    "type": 1
+  },
+  "md5": "5bad29d13b99edf3cc2c569c93e74191",
+  "name": "catboost",
+  "package_tarball_full_path": "C:\\Users\\Administrator\\anaconda3\\pkgs\\catboost-1.2.3-py38haa95532_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/catboost-1.2.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/catboost-1.2.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "87d972d4050b89f162c1e7fbca1cf1ba3b095bb1dd9cfc8eb261a7f8ede24960",
+        "sha256_in_prefix": "87d972d4050b89f162c1e7fbca1cf1ba3b095bb1dd9cfc8eb261a7f8ede24960",
+        "size_in_bytes": 1240
+      },
+      {
+        "_path": "Lib/site-packages/catboost-1.2.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "5cc965a7db18148bd4565e1637415eb6d2a70f0caffb936dd8113f28b5e5f216",
+        "sha256_in_prefix": "5cc965a7db18148bd4565e1637415eb6d2a70f0caffb936dd8113f28b5e5f216",
+        "size_in_bytes": 6638
+      },
+      {
+        "_path": "Lib/site-packages/catboost-1.2.3.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/catboost-1.2.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1766835ad5ab8a534cdfea71d6f06d24e11deda4554deb507c5b8362661b0144",
+        "sha256_in_prefix": "1766835ad5ab8a534cdfea71d6f06d24e11deda4554deb507c5b8362661b0144",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "Lib/site-packages/catboost-1.2.3.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "5ad582877ebcdbb11f66dd342be736d417fb1deecbf96b620c8f4a3ad70f7169",
+        "sha256_in_prefix": "5ad582877ebcdbb11f66dd342be736d417fb1deecbf96b620c8f4a3ad70f7169",
+        "size_in_bytes": 282
+      },
+      {
+        "_path": "Lib/site-packages/catboost-1.2.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "5d09613faa3a56b12ce9ff19fe38aea49511b8986b7fcf289df961c0cb6fa8b1",
+        "sha256_in_prefix": "5d09613faa3a56b12ce9ff19fe38aea49511b8986b7fcf289df961c0cb6fa8b1",
+        "size_in_bytes": 25
+      },
+      {
+        "_path": "Lib/site-packages/catboost/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d3be70c34c22a2aee1092568560a49c53ba22e12a13a733afc4f4ab0177901b6",
+        "sha256_in_prefix": "d3be70c34c22a2aee1092568560a49c53ba22e12a13a733afc4f4ab0177901b6",
+        "size_in_bytes": 1322
+      },
+      {
+        "_path": "Lib/site-packages/catboost/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "3b30191cb14bfd6bfe2d9a8941ad4adf1391f074a4b3b7d16cc61fc349190609",
+        "sha256_in_prefix": "3b30191cb14bfd6bfe2d9a8941ad4adf1391f074a4b3b7d16cc61fc349190609",
+        "size_in_bytes": 1282
+      },
+      {
+        "_path": "Lib/site-packages/catboost/__pycache__/carry.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8807229e97ca931c72b48a294c15ec524060eb7fd0a4bbb02af33c81997bfd02",
+        "sha256_in_prefix": "8807229e97ca931c72b48a294c15ec524060eb7fd0a4bbb02af33c81997bfd02",
+        "size_in_bytes": 2089
+      },
+      {
+        "_path": "Lib/site-packages/catboost/__pycache__/core.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9c102150b9bca8995f29ac7ff30a9016df9bcf1b3990e644a937de3df1bc60b2",
+        "sha256_in_prefix": "9c102150b9bca8995f29ac7ff30a9016df9bcf1b3990e644a937de3df1bc60b2",
+        "size_in_bytes": 260507
+      },
+      {
+        "_path": "Lib/site-packages/catboost/__pycache__/datasets.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c5ee65ff86f20ab52174ad3f03cc438569b319b0e50ee3807995a1c760a17468",
+        "sha256_in_prefix": "c5ee65ff86f20ab52174ad3f03cc438569b319b0e50ee3807995a1c760a17468",
+        "size_in_bytes": 11464
+      },
+      {
+        "_path": "Lib/site-packages/catboost/__pycache__/dev_utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ce5670cc83e7bd3c2bede0ee39c99a7177c2f9465fb2f63d0e4e4faf7ea2671f",
+        "sha256_in_prefix": "ce5670cc83e7bd3c2bede0ee39c99a7177c2f9465fb2f63d0e4e4faf7ea2671f",
+        "size_in_bytes": 600
+      },
+      {
+        "_path": "Lib/site-packages/catboost/__pycache__/metrics.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "df10bcec5c5ea6e9ad2676bea077866a1fce909cc5b9bfd0087832517345a4a3",
+        "sha256_in_prefix": "df10bcec5c5ea6e9ad2676bea077866a1fce909cc5b9bfd0087832517345a4a3",
+        "size_in_bytes": 10829
+      },
+      {
+        "_path": "Lib/site-packages/catboost/__pycache__/monoforest.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8dc136b116f0b887be47f7e3713059435d0c66d7e9f762a58f014b4dd10340d6",
+        "sha256_in_prefix": "8dc136b116f0b887be47f7e3713059435d0c66d7e9f762a58f014b4dd10340d6",
+        "size_in_bytes": 4380
+      },
+      {
+        "_path": "Lib/site-packages/catboost/__pycache__/plot_helpers.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "bd7d0df12192f5703d38ce109be06e78cfc351b731d66a16d16531db697b48f7",
+        "sha256_in_prefix": "bd7d0df12192f5703d38ce109be06e78cfc351b731d66a16d16531db697b48f7",
+        "size_in_bytes": 6147
+      },
+      {
+        "_path": "Lib/site-packages/catboost/__pycache__/text_processing.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "51e526e5e2972e98776fca60cb6c235a0e7918813c04ce6f260a21ea0c6218ed",
+        "sha256_in_prefix": "51e526e5e2972e98776fca60cb6c235a0e7918813c04ce6f260a21ea0c6218ed",
+        "size_in_bytes": 209
+      },
+      {
+        "_path": "Lib/site-packages/catboost/__pycache__/utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a96ed33d7ee799c1a677b96ec1f4ed4156cd8315c0965b5b37bca29987cdf243",
+        "sha256_in_prefix": "a96ed33d7ee799c1a677b96ec1f4ed4156cd8315c0965b5b37bca29987cdf243",
+        "size_in_bytes": 21919
+      },
+      {
+        "_path": "Lib/site-packages/catboost/__pycache__/version.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f0e9fb57068322a7457a39d05f697434f35c672bb33568c70b584e082ea72c74",
+        "sha256_in_prefix": "f0e9fb57068322a7457a39d05f697434f35c672bb33568c70b584e082ea72c74",
+        "size_in_bytes": 145
+      },
+      {
+        "_path": "Lib/site-packages/catboost/_catboost.pyd",
+        "path_type": "hardlink",
+        "sha256": "0ee0bd59cfb3a32dc34f7b2765ff6a13520752c1a8bc621ef6b74531fb4eadd4",
+        "sha256_in_prefix": "0ee0bd59cfb3a32dc34f7b2765ff6a13520752c1a8bc621ef6b74531fb4eadd4",
+        "size_in_bytes": 359111680
+      },
+      {
+        "_path": "Lib/site-packages/catboost/carry.py",
+        "path_type": "hardlink",
+        "sha256": "a45f6840abf95b2dbe81288efd8322c13755b5dbb8afa216349a6e71182ac778",
+        "sha256_in_prefix": "a45f6840abf95b2dbe81288efd8322c13755b5dbb8afa216349a6e71182ac778",
+        "size_in_bytes": 2950
+      },
+      {
+        "_path": "Lib/site-packages/catboost/core.py",
+        "path_type": "hardlink",
+        "sha256": "3d2fdb1792a8d99eb0aa7b86b55912ff2136fc1f9f0947f5c96c2dab2cc50bbc",
+        "sha256_in_prefix": "3d2fdb1792a8d99eb0aa7b86b55912ff2136fc1f9f0947f5c96c2dab2cc50bbc",
+        "size_in_bytes": 334042
+      },
+      {
+        "_path": "Lib/site-packages/catboost/datasets.py",
+        "path_type": "hardlink",
+        "sha256": "940d0495ed985c159d4ed388085144f663f7aa24c6e66d34c6ca7c9131b5ccd0",
+        "sha256_in_prefix": "940d0495ed985c159d4ed388085144f663f7aa24c6e66d34c6ca7c9131b5ccd0",
+        "size_in_bytes": 14227
+      },
+      {
+        "_path": "Lib/site-packages/catboost/dev_utils.py",
+        "path_type": "hardlink",
+        "sha256": "5549b5a07033ef099b0f2d03c4ad0fec4fd072605adc1c9aa03ba7298efe79d3",
+        "sha256_in_prefix": "5549b5a07033ef099b0f2d03c4ad0fec4fd072605adc1c9aa03ba7298efe79d3",
+        "size_in_bytes": 834
+      },
+      {
+        "_path": "Lib/site-packages/catboost/eval/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2d59e8513f4d3ef5afde014bf7a312de5520e0898051ea98499195389ea7c485",
+        "sha256_in_prefix": "2d59e8513f4d3ef5afde014bf7a312de5520e0898051ea98499195389ea7c485",
+        "size_in_bytes": 465
+      },
+      {
+        "_path": "Lib/site-packages/catboost/eval/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9eda89eef1032efdf9f2d7af58a839fdd4263493bcc51d228b1cdc2cdd71c595",
+        "sha256_in_prefix": "9eda89eef1032efdf9f2d7af58a839fdd4263493bcc51d228b1cdc2cdd71c595",
+        "size_in_bytes": 543
+      },
+      {
+        "_path": "Lib/site-packages/catboost/eval/__pycache__/_fold_model.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "bbd37ab3e109c11af4fc452355bff3e9a4be87075c3cb403ac5d439bb77cedb7",
+        "sha256_in_prefix": "bbd37ab3e109c11af4fc452355bff3e9a4be87075c3cb403ac5d439bb77cedb7",
+        "size_in_bytes": 1706
+      },
+      {
+        "_path": "Lib/site-packages/catboost/eval/__pycache__/_fold_models_handler.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8573a828b3a384fed80daf6fe59a958b6891ee3b3ef259719256010a218415d9",
+        "sha256_in_prefix": "8573a828b3a384fed80daf6fe59a958b6891ee3b3ef259719256010a218415d9",
+        "size_in_bytes": 7035
+      },
+      {
+        "_path": "Lib/site-packages/catboost/eval/__pycache__/_fold_storage.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "16a1c354250fbc7310f770c8e65e076d22ca552377c367bdf6b7ed34b163d743",
+        "sha256_in_prefix": "16a1c354250fbc7310f770c8e65e076d22ca552377c367bdf6b7ed34b163d743",
+        "size_in_bytes": 5003
+      },
+      {
+        "_path": "Lib/site-packages/catboost/eval/__pycache__/_readers.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1f87cc26c2da370da76e1a4a1d09aee103638214973e7448a21bc757471885be",
+        "sha256_in_prefix": "1f87cc26c2da370da76e1a4a1d09aee103638214973e7448a21bc757471885be",
+        "size_in_bytes": 3009
+      },
+      {
+        "_path": "Lib/site-packages/catboost/eval/__pycache__/_splitter.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "daec0dc924379778d5dd9e20efe304f52cfcabdcad6c38e709d99910b0716545",
+        "sha256_in_prefix": "daec0dc924379778d5dd9e20efe304f52cfcabdcad6c38e709d99910b0716545",
+        "size_in_bytes": 4648
+      },
+      {
+        "_path": "Lib/site-packages/catboost/eval/__pycache__/catboost_evaluation.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2aa8a7e407aec2687b017e73cfbc0db9ef4b3b800fc44bd3ff08a86c1aa73b43",
+        "sha256_in_prefix": "2aa8a7e407aec2687b017e73cfbc0db9ef4b3b800fc44bd3ff08a86c1aa73b43",
+        "size_in_bytes": 8970
+      },
+      {
+        "_path": "Lib/site-packages/catboost/eval/__pycache__/evaluation_result.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "82e6f1e1ee1d7dacbb59b91e0643af685dda85579852213a3e875edc0ca41251",
+        "sha256_in_prefix": "82e6f1e1ee1d7dacbb59b91e0643af685dda85579852213a3e875edc0ca41251",
+        "size_in_bytes": 17040
+      },
+      {
+        "_path": "Lib/site-packages/catboost/eval/__pycache__/execution_case.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2468a1618d8030649e7e50813737ea108fa1a9fff9ea06f09dba83021fc02c7f",
+        "sha256_in_prefix": "2468a1618d8030649e7e50813737ea108fa1a9fff9ea06f09dba83021fc02c7f",
+        "size_in_bytes": 2974
+      },
+      {
+        "_path": "Lib/site-packages/catboost/eval/__pycache__/factor_utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9e8765004ae2b1c1a354b3f949833e86279a219f08e324e34c8946f6dad2e3bb",
+        "sha256_in_prefix": "9e8765004ae2b1c1a354b3f949833e86279a219f08e324e34c8946f6dad2e3bb",
+        "size_in_bytes": 3241
+      },
+      {
+        "_path": "Lib/site-packages/catboost/eval/__pycache__/log_config.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "3296d5f55f975321d5da600c6d0ea3fa50752a2d350d6b16f84cdf8b0b74fa96",
+        "sha256_in_prefix": "3296d5f55f975321d5da600c6d0ea3fa50752a2d350d6b16f84cdf8b0b74fa96",
+        "size_in_bytes": 978
+      },
+      {
+        "_path": "Lib/site-packages/catboost/eval/__pycache__/utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "3a14444f0f820a48722fdbb9d14316d4ac79fcf8cf0949a231f56246c34cb241",
+        "sha256_in_prefix": "3a14444f0f820a48722fdbb9d14316d4ac79fcf8cf0949a231f56246c34cb241",
+        "size_in_bytes": 915
+      },
+      {
+        "_path": "Lib/site-packages/catboost/eval/_fold_model.py",
+        "path_type": "hardlink",
+        "sha256": "7e11c29da904a58bcf1b72431524faa2d263bd53f8d4859e196569906977df5e",
+        "sha256_in_prefix": "7e11c29da904a58bcf1b72431524faa2d263bd53f8d4859e196569906977df5e",
+        "size_in_bytes": 1074
+      },
+      {
+        "_path": "Lib/site-packages/catboost/eval/_fold_models_handler.py",
+        "path_type": "hardlink",
+        "sha256": "f9de5e7900c8265dfb0c5d8e23629368e8cd31231a536bf5654e3031f347db26",
+        "sha256_in_prefix": "f9de5e7900c8265dfb0c5d8e23629368e8cd31231a536bf5654e3031f347db26",
+        "size_in_bytes": 9799
+      },
+      {
+        "_path": "Lib/site-packages/catboost/eval/_fold_storage.py",
+        "path_type": "hardlink",
+        "sha256": "c7437b98dd7181755bc9b161ac3774431ba38279fa1407294853fb4aa91111d0",
+        "sha256_in_prefix": "c7437b98dd7181755bc9b161ac3774431ba38279fa1407294853fb4aa91111d0",
+        "size_in_bytes": 3879
+      },
+      {
+        "_path": "Lib/site-packages/catboost/eval/_readers.py",
+        "path_type": "hardlink",
+        "sha256": "659539a9dd9558e0bc48007d8705b779147097dc21320a91902f03fd0ac22ca8",
+        "sha256_in_prefix": "659539a9dd9558e0bc48007d8705b779147097dc21320a91902f03fd0ac22ca8",
+        "size_in_bytes": 2569
+      },
+      {
+        "_path": "Lib/site-packages/catboost/eval/_splitter.py",
+        "path_type": "hardlink",
+        "sha256": "d3ee11d8b5e913c7ee1931bc4bae96783ed369d4ef177353a5b86c1b98c902a5",
+        "sha256_in_prefix": "d3ee11d8b5e913c7ee1931bc4bae96783ed369d4ef177353a5b86c1b98c902a5",
+        "size_in_bytes": 6509
+      },
+      {
+        "_path": "Lib/site-packages/catboost/eval/catboost_evaluation.py",
+        "path_type": "hardlink",
+        "sha256": "3e78c16f7df835b10c6886c5f594ab6dd27960be7241b928c8c3687672b345b8",
+        "sha256_in_prefix": "3e78c16f7df835b10c6886c5f594ab6dd27960be7241b928c8c3687672b345b8",
+        "size_in_bytes": 13890
+      },
+      {
+        "_path": "Lib/site-packages/catboost/eval/evaluation_result.py",
+        "path_type": "hardlink",
+        "sha256": "22c42de9e73efc9b90971318ef2fa0100ce182326483a0134086e1f8054be707",
+        "sha256_in_prefix": "22c42de9e73efc9b90971318ef2fa0100ce182326483a0134086e1f8054be707",
+        "size_in_bytes": 18676
+      },
+      {
+        "_path": "Lib/site-packages/catboost/eval/execution_case.py",
+        "path_type": "hardlink",
+        "sha256": "a4053bbf8fe9d8bb62a7e0717622ceab5ee7fe4b337e4b92cd971756420753b8",
+        "sha256_in_prefix": "a4053bbf8fe9d8bb62a7e0717622ceab5ee7fe4b337e4b92cd971756420753b8",
+        "size_in_bytes": 2664
+      },
+      {
+        "_path": "Lib/site-packages/catboost/eval/factor_utils.py",
+        "path_type": "hardlink",
+        "sha256": "0f59380a7eaaf8aa04a1bdc5a909bd7282a8d487e2d2e401310edc4df0c0229a",
+        "sha256_in_prefix": "0f59380a7eaaf8aa04a1bdc5a909bd7282a8d487e2d2e401310edc4df0c0229a",
+        "size_in_bytes": 3541
+      },
+      {
+        "_path": "Lib/site-packages/catboost/eval/log_config.py",
+        "path_type": "hardlink",
+        "sha256": "223ad992d86456088e036d016a8004dbc96063932db0bb258deb923def97b1c6",
+        "sha256_in_prefix": "223ad992d86456088e036d016a8004dbc96063932db0bb258deb923def97b1c6",
+        "size_in_bytes": 822
+      },
+      {
+        "_path": "Lib/site-packages/catboost/eval/utils.py",
+        "path_type": "hardlink",
+        "sha256": "f9ccdb492e396cff8771040826a2587bc0a98861cba8e79577bbcad3bb7887f8",
+        "sha256_in_prefix": "f9ccdb492e396cff8771040826a2587bc0a98861cba8e79577bbcad3bb7887f8",
+        "size_in_bytes": 579
+      },
+      {
+        "_path": "Lib/site-packages/catboost/hnsw/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f8172551ddf870875517792dcebfa9146242660141869c59aef45186898c4ff2",
+        "sha256_in_prefix": "f8172551ddf870875517792dcebfa9146242660141869c59aef45186898c4ff2",
+        "size_in_bytes": 256
+      },
+      {
+        "_path": "Lib/site-packages/catboost/hnsw/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "56336e415a2ea76bc1459b251809ab2a19c9d76d45d7104fab64528d34ad98a1",
+        "sha256_in_prefix": "56336e415a2ea76bc1459b251809ab2a19c9d76d45d7104fab64528d34ad98a1",
+        "size_in_bytes": 400
+      },
+      {
+        "_path": "Lib/site-packages/catboost/hnsw/__pycache__/hnsw.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e7be5b3eb23a8dd7b5dc3ea757191a387d58368ef679f57ac2c5fdd85dfdf526",
+        "sha256_in_prefix": "e7be5b3eb23a8dd7b5dc3ea757191a387d58368ef679f57ac2c5fdd85dfdf526",
+        "size_in_bytes": 20723
+      },
+      {
+        "_path": "Lib/site-packages/catboost/hnsw/_hnsw.pyd",
+        "path_type": "hardlink",
+        "sha256": "9317aee563cc30058636c47657ccf21ca1daa0720b6cbc6f0f81934645095c46",
+        "sha256_in_prefix": "9317aee563cc30058636c47657ccf21ca1daa0720b6cbc6f0f81934645095c46",
+        "size_in_bytes": 6065664
+      },
+      {
+        "_path": "Lib/site-packages/catboost/hnsw/hnsw.py",
+        "path_type": "hardlink",
+        "sha256": "24e9c9626ee1b225ec1a3929e00ff627b11a97834610236c379abe136fdc9f87",
+        "sha256_in_prefix": "24e9c9626ee1b225ec1a3929e00ff627b11a97834610236c379abe136fdc9f87",
+        "size_in_bytes": 21474
+      },
+      {
+        "_path": "Lib/site-packages/catboost/metrics.py",
+        "path_type": "hardlink",
+        "sha256": "daf9ede74a73de38c5437cf4f8d72257942cb0cd13f4c2203c0fdb1f6b6ff549",
+        "sha256_in_prefix": "daf9ede74a73de38c5437cf4f8d72257942cb0cd13f4c2203c0fdb1f6b6ff549",
+        "size_in_bytes": 11615
+      },
+      {
+        "_path": "Lib/site-packages/catboost/monoforest.py",
+        "path_type": "hardlink",
+        "sha256": "4eee358cab48b2b00a5561cd6be77cd1dcda5d4a18bfea4b2012acfd879cbc2a",
+        "sha256_in_prefix": "4eee358cab48b2b00a5561cd6be77cd1dcda5d4a18bfea4b2012acfd879cbc2a",
+        "size_in_bytes": 4842
+      },
+      {
+        "_path": "Lib/site-packages/catboost/plot_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "6e133b3408344e45968894fe1cb093e1aca98ec3f2c16fd4079dd11500402592",
+        "sha256_in_prefix": "6e133b3408344e45968894fe1cb093e1aca98ec3f2c16fd4079dd11500402592",
+        "size_in_bytes": 6766
+      },
+      {
+        "_path": "Lib/site-packages/catboost/text_processing.py",
+        "path_type": "hardlink",
+        "sha256": "f978b65a2a7112ddb6167802bd141f7c21a6b4ff19161c18789eddc457eca3cf",
+        "sha256_in_prefix": "f978b65a2a7112ddb6167802bd141f7c21a6b4ff19161c18789eddc457eca3cf",
+        "size_in_bytes": 95
+      },
+      {
+        "_path": "Lib/site-packages/catboost/utils.py",
+        "path_type": "hardlink",
+        "sha256": "a25eb90954f4381af1ebd7477a199626eb057c866c727e02b2ebf3040353de5d",
+        "sha256_in_prefix": "a25eb90954f4381af1ebd7477a199626eb057c866c727e02b2ebf3040353de5d",
+        "size_in_bytes": 28456
+      },
+      {
+        "_path": "Lib/site-packages/catboost/version.py",
+        "path_type": "hardlink",
+        "sha256": "e351a4a71f4296b3cf25da2e97f2aa54caf2e21d5e948738fb1f4027a66f94af",
+        "sha256_in_prefix": "e351a4a71f4296b3cf25da2e97f2aa54caf2e21d5e948738fb1f4027a66f94af",
+        "size_in_bytes": 19
+      },
+      {
+        "_path": "Lib/site-packages/catboost/widget/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2c48894da33f2c70851af25b50b452918a64b05b5bfaa07b31d2b4acf625271c",
+        "sha256_in_prefix": "2c48894da33f2c70851af25b50b452918a64b05b5bfaa07b31d2b4acf625271c",
+        "size_in_bytes": 522
+      },
+      {
+        "_path": "Lib/site-packages/catboost/widget/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6bbd283a65c8190e0d922146307ff49ab71fe2e90d273e5d10bb4ca3ac343fa7",
+        "sha256_in_prefix": "6bbd283a65c8190e0d922146307ff49ab71fe2e90d273e5d10bb4ca3ac343fa7",
+        "size_in_bytes": 734
+      },
+      {
+        "_path": "Lib/site-packages/catboost/widget/__pycache__/callbacks.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "13352e9af99a55ac069fdcc0b95a4a4d408b7e9df94c939e8fafa2d07b9b4847",
+        "sha256_in_prefix": "13352e9af99a55ac069fdcc0b95a4a4d408b7e9df94c939e8fafa2d07b9b4847",
+        "size_in_bytes": 3151
+      },
+      {
+        "_path": "Lib/site-packages/catboost/widget/__pycache__/ipythonwidget.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "71a9582d90db5c3dacf4b5f723f76357701f0d6994c0600654216690f39e0e10",
+        "sha256_in_prefix": "71a9582d90db5c3dacf4b5f723f76357701f0d6994c0600654216690f39e0e10",
+        "size_in_bytes": 4355
+      },
+      {
+        "_path": "Lib/site-packages/catboost/widget/__pycache__/metrics_plotter.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "94ea19f57a1a36f8ff4fea23c3a022c4d64619593d9b2ea5e476f9f7c38d0608",
+        "sha256_in_prefix": "94ea19f57a1a36f8ff4fea23c3a022c4d64619593d9b2ea5e476f9f7c38d0608",
+        "size_in_bytes": 6504
+      },
+      {
+        "_path": "Lib/site-packages/catboost/widget/callbacks.py",
+        "path_type": "hardlink",
+        "sha256": "a277f9563c44eec12ead8616bacff09cff1b1289a87f9730c831c50d445c24dd",
+        "sha256_in_prefix": "a277f9563c44eec12ead8616bacff09cff1b1289a87f9730c831c50d445c24dd",
+        "size_in_bytes": 3442
+      },
+      {
+        "_path": "Lib/site-packages/catboost/widget/ipythonwidget.py",
+        "path_type": "hardlink",
+        "sha256": "0c9fe7a46b536bd628e143f47018540c99e9c01035ab0c39ccbf1eb6cb32df6d",
+        "sha256_in_prefix": "0c9fe7a46b536bd628e143f47018540c99e9c01035ab0c39ccbf1eb6cb32df6d",
+        "size_in_bytes": 4089
+      },
+      {
+        "_path": "Lib/site-packages/catboost/widget/metrics_plotter.py",
+        "path_type": "hardlink",
+        "sha256": "4cf1157a69631bda2ca04b566366888e7041007a1b776d13f9b59563cdea8322",
+        "sha256_in_prefix": "4cf1157a69631bda2ca04b566366888e7041007a1b776d13f9b59563cdea8322",
+        "size_in_bytes": 7748
+      },
+      {
+        "_path": "etc/jupyter/nbconfig/notebook.d/catboost-widget.json",
+        "path_type": "hardlink",
+        "sha256": "c5342048e77b76f38e92ca83e25e97e038b24c21890e72dfc5797f048bf25c5b",
+        "sha256_in_prefix": "c5342048e77b76f38e92ca83e25e97e038b24c21890e72dfc5797f048bf25c5b",
+        "size_in_bytes": 74
+      },
+      {
+        "_path": "share/jupyter/labextensions/catboost-widget/package.json",
+        "path_type": "hardlink",
+        "sha256": "4b11b3c5f17a85e87d33e62347d5de04321b17a27a5d85bfdc0511c3e0f31537",
+        "sha256_in_prefix": "4b11b3c5f17a85e87d33e62347d5de04321b17a27a5d85bfdc0511c3e0f31537",
+        "size_in_bytes": 1162
+      },
+      {
+        "_path": "share/jupyter/labextensions/catboost-widget/static/138.b93b952d8851db0de46b.js",
+        "path_type": "hardlink",
+        "sha256": "98557cf4f2546a07e3a6e3693b861878d9c51c0a6a1e871c094fc04eae784836",
+        "sha256_in_prefix": "98557cf4f2546a07e3a6e3693b861878d9c51c0a6a1e871c094fc04eae784836",
+        "size_in_bytes": 38156
+      },
+      {
+        "_path": "share/jupyter/labextensions/catboost-widget/static/479.d43617224b25ecf15b1d.js",
+        "path_type": "hardlink",
+        "sha256": "108e012b085d6dda010904fa59ec9aa5770d9ad1e1856af93efa67fda652fc31",
+        "sha256_in_prefix": "108e012b085d6dda010904fa59ec9aa5770d9ad1e1856af93efa67fda652fc31",
+        "size_in_bytes": 3472242
+      },
+      {
+        "_path": "share/jupyter/labextensions/catboost-widget/static/479.d43617224b25ecf15b1d.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "99b8afca26f4f995419fd5646383cda95b92d0d5198974937e64935b0abb6c5b",
+        "sha256_in_prefix": "99b8afca26f4f995419fd5646383cda95b92d0d5198974937e64935b0abb6c5b",
+        "size_in_bytes": 1282
+      },
+      {
+        "_path": "share/jupyter/labextensions/catboost-widget/static/486.bafd26b008c3405f7750.js",
+        "path_type": "hardlink",
+        "sha256": "bd508efe5f13f33117b56f580b0d9e822e4f1418b8a9582a570d193758235505",
+        "sha256_in_prefix": "bd508efe5f13f33117b56f580b0d9e822e4f1418b8a9582a570d193758235505",
+        "size_in_bytes": 70497
+      },
+      {
+        "_path": "share/jupyter/labextensions/catboost-widget/static/486.bafd26b008c3405f7750.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "d33efbdf4d309bfa4448199551371ff81d5f57661b781faf79d256554e038595",
+        "sha256_in_prefix": "d33efbdf4d309bfa4448199551371ff81d5f57661b781faf79d256554e038595",
+        "size_in_bytes": 336
+      },
+      {
+        "_path": "share/jupyter/labextensions/catboost-widget/static/755.297bcad6e07632169fc2.js",
+        "path_type": "hardlink",
+        "sha256": "e531fc54c4be7e18272ee8b5925293827e58073fc9c58c62d09f3288b2750a0a",
+        "sha256_in_prefix": "e531fc54c4be7e18272ee8b5925293827e58073fc9c58c62d09f3288b2750a0a",
+        "size_in_bytes": 89698
+      },
+      {
+        "_path": "share/jupyter/labextensions/catboost-widget/static/755.297bcad6e07632169fc2.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "90df5fb90a66efeeba4a18886bb6c62bdc1389f8ea14d8e1531acd42f160d344",
+        "sha256_in_prefix": "90df5fb90a66efeeba4a18886bb6c62bdc1389f8ea14d8e1531acd42f160d344",
+        "size_in_bytes": 475
+      },
+      {
+        "_path": "share/jupyter/labextensions/catboost-widget/static/908.81f6af6c7d6425b98663.js",
+        "path_type": "hardlink",
+        "sha256": "ea50581e4076f793c3c5f7fb488934a2d9ae34feee5500924c16603e0da9acfb",
+        "sha256_in_prefix": "ea50581e4076f793c3c5f7fb488934a2d9ae34feee5500924c16603e0da9acfb",
+        "size_in_bytes": 309
+      },
+      {
+        "_path": "share/jupyter/labextensions/catboost-widget/static/remoteEntry.407524146b5efa8ed8e9.js",
+        "path_type": "hardlink",
+        "sha256": "4b0a5b34cf5775da57511ca7343f4239f54bcbd5c0e4266b3ce79812395f75a1",
+        "sha256_in_prefix": "4b0a5b34cf5775da57511ca7343f4239f54bcbd5c0e4266b3ce79812395f75a1",
+        "size_in_bytes": 7238
+      },
+      {
+        "_path": "share/jupyter/labextensions/catboost-widget/static/style.js",
+        "path_type": "hardlink",
+        "sha256": "f8242dd194cf6824efad188b7339f17e501b7ef20a94e5738cea2cfa6b9a5d0f",
+        "sha256_in_prefix": "f8242dd194cf6824efad188b7339f17e501b7ef20a94e5738cea2cfa6b9a5d0f",
+        "size_in_bytes": 118
+      },
+      {
+        "_path": "share/jupyter/nbextensions/catboost-widget/extension.js",
+        "path_type": "hardlink",
+        "sha256": "ea4304eda16db0ac99b5d52de95aa62063b00bec297eb2b33ec78ca12711c72b",
+        "sha256_in_prefix": "ea4304eda16db0ac99b5d52de95aa62063b00bec297eb2b33ec78ca12711c72b",
+        "size_in_bytes": 328
+      },
+      {
+        "_path": "share/jupyter/nbextensions/catboost-widget/index.js",
+        "path_type": "hardlink",
+        "sha256": "227d74ec25210e5c0f4d93166a9777ea2880a28dc376a53e77f1d7bb7939b7db",
+        "sha256_in_prefix": "227d74ec25210e5c0f4d93166a9777ea2880a28dc376a53e77f1d7bb7939b7db",
+        "size_in_bytes": 3670950
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "catboost",
+  "sha256": "2bead9f2d2fe6c59850ec49fd07204a9d2a0638e548c465704dfed9ac4f6b83a",
+  "size": 56238612,
+  "subdir": "win-64",
+  "timestamp": 1711455694000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/catboost-1.2.3-py38haa95532_0.conda",
+  "version": "1.2.3"
+}

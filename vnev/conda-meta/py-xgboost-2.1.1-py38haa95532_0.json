@@ -1,0 +1,631 @@
+{
+  "build": "py38haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [
+    "pandas >=1.2"
+  ],
+  "depends": [
+    "_py-xgboost-mutex 2.0 cpu_0",
+    "libxgboost 2.1.1 h585ebfc_0",
+    "numpy",
+    "python >=3.8,<3.9.0a0",
+    "scipy"
+  ],
+  "extracted_package_dir": "C:\\Users\\Administrator\\anaconda3\\pkgs\\py-xgboost-2.1.1-py38haa95532_0",
+  "files": [
+    "Lib/site-packages/xgboost-2.1.1.dist-info/INSTALLER",
+    "Lib/site-packages/xgboost-2.1.1.dist-info/METADATA",
+    "Lib/site-packages/xgboost-2.1.1.dist-info/RECORD",
+    "Lib/site-packages/xgboost-2.1.1.dist-info/REQUESTED",
+    "Lib/site-packages/xgboost-2.1.1.dist-info/WHEEL",
+    "Lib/site-packages/xgboost-2.1.1.dist-info/direct_url.json",
+    "Lib/site-packages/xgboost/VERSION",
+    "Lib/site-packages/xgboost/__init__.py",
+    "Lib/site-packages/xgboost/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/xgboost/__pycache__/_typing.cpython-38.pyc",
+    "Lib/site-packages/xgboost/__pycache__/callback.cpython-38.pyc",
+    "Lib/site-packages/xgboost/__pycache__/collective.cpython-38.pyc",
+    "Lib/site-packages/xgboost/__pycache__/compat.cpython-38.pyc",
+    "Lib/site-packages/xgboost/__pycache__/config.cpython-38.pyc",
+    "Lib/site-packages/xgboost/__pycache__/core.cpython-38.pyc",
+    "Lib/site-packages/xgboost/__pycache__/data.cpython-38.pyc",
+    "Lib/site-packages/xgboost/__pycache__/federated.cpython-38.pyc",
+    "Lib/site-packages/xgboost/__pycache__/libpath.cpython-38.pyc",
+    "Lib/site-packages/xgboost/__pycache__/plotting.cpython-38.pyc",
+    "Lib/site-packages/xgboost/__pycache__/sklearn.cpython-38.pyc",
+    "Lib/site-packages/xgboost/__pycache__/tracker.cpython-38.pyc",
+    "Lib/site-packages/xgboost/__pycache__/training.cpython-38.pyc",
+    "Lib/site-packages/xgboost/_typing.py",
+    "Lib/site-packages/xgboost/callback.py",
+    "Lib/site-packages/xgboost/collective.py",
+    "Lib/site-packages/xgboost/compat.py",
+    "Lib/site-packages/xgboost/config.py",
+    "Lib/site-packages/xgboost/core.py",
+    "Lib/site-packages/xgboost/dask/__init__.py",
+    "Lib/site-packages/xgboost/dask/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/xgboost/dask/__pycache__/utils.cpython-38.pyc",
+    "Lib/site-packages/xgboost/dask/utils.py",
+    "Lib/site-packages/xgboost/data.py",
+    "Lib/site-packages/xgboost/federated.py",
+    "Lib/site-packages/xgboost/libpath.py",
+    "Lib/site-packages/xgboost/plotting.py",
+    "Lib/site-packages/xgboost/py.typed",
+    "Lib/site-packages/xgboost/sklearn.py",
+    "Lib/site-packages/xgboost/spark/__init__.py",
+    "Lib/site-packages/xgboost/spark/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/xgboost/spark/__pycache__/core.cpython-38.pyc",
+    "Lib/site-packages/xgboost/spark/__pycache__/data.cpython-38.pyc",
+    "Lib/site-packages/xgboost/spark/__pycache__/estimator.cpython-38.pyc",
+    "Lib/site-packages/xgboost/spark/__pycache__/params.cpython-38.pyc",
+    "Lib/site-packages/xgboost/spark/__pycache__/utils.cpython-38.pyc",
+    "Lib/site-packages/xgboost/spark/core.py",
+    "Lib/site-packages/xgboost/spark/data.py",
+    "Lib/site-packages/xgboost/spark/estimator.py",
+    "Lib/site-packages/xgboost/spark/params.py",
+    "Lib/site-packages/xgboost/spark/utils.py",
+    "Lib/site-packages/xgboost/testing/__init__.py",
+    "Lib/site-packages/xgboost/testing/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/xgboost/testing/__pycache__/continuation.cpython-38.pyc",
+    "Lib/site-packages/xgboost/testing/__pycache__/dask.cpython-38.pyc",
+    "Lib/site-packages/xgboost/testing/__pycache__/data.cpython-38.pyc",
+    "Lib/site-packages/xgboost/testing/__pycache__/data_iter.cpython-38.pyc",
+    "Lib/site-packages/xgboost/testing/__pycache__/federated.cpython-38.pyc",
+    "Lib/site-packages/xgboost/testing/__pycache__/metrics.cpython-38.pyc",
+    "Lib/site-packages/xgboost/testing/__pycache__/params.cpython-38.pyc",
+    "Lib/site-packages/xgboost/testing/__pycache__/ranking.cpython-38.pyc",
+    "Lib/site-packages/xgboost/testing/__pycache__/shared.cpython-38.pyc",
+    "Lib/site-packages/xgboost/testing/__pycache__/updater.cpython-38.pyc",
+    "Lib/site-packages/xgboost/testing/continuation.py",
+    "Lib/site-packages/xgboost/testing/dask.py",
+    "Lib/site-packages/xgboost/testing/data.py",
+    "Lib/site-packages/xgboost/testing/data_iter.py",
+    "Lib/site-packages/xgboost/testing/federated.py",
+    "Lib/site-packages/xgboost/testing/metrics.py",
+    "Lib/site-packages/xgboost/testing/params.py",
+    "Lib/site-packages/xgboost/testing/ranking.py",
+    "Lib/site-packages/xgboost/testing/shared.py",
+    "Lib/site-packages/xgboost/testing/updater.py",
+    "Lib/site-packages/xgboost/tracker.py",
+    "Lib/site-packages/xgboost/training.py"
+  ],
+  "fn": "py-xgboost-2.1.1-py38haa95532_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "C:\\Users\\Administrator\\anaconda3\\pkgs\\py-xgboost-2.1.1-py38haa95532_0",
+    "type": 1
+  },
+  "md5": "f1f7aa8e640a2b04e1c07bec5b39f206",
+  "name": "py-xgboost",
+  "package_tarball_full_path": "C:\\Users\\Administrator\\anaconda3\\pkgs\\py-xgboost-2.1.1-py38haa95532_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/xgboost-2.1.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/xgboost-2.1.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "2f345a35ce547defa441a4ead1a1e95e0dd7cfeea6a59d14d4dddcbc94e5e8f9",
+        "sha256_in_prefix": "2f345a35ce547defa441a4ead1a1e95e0dd7cfeea6a59d14d4dddcbc94e5e8f9",
+        "size_in_bytes": 2018
+      },
+      {
+        "_path": "Lib/site-packages/xgboost-2.1.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "2363aea7cbc7d3a6ac70e458e8791c75fe358b2b5af966b5b2c722546779d2e4",
+        "sha256_in_prefix": "2363aea7cbc7d3a6ac70e458e8791c75fe358b2b5af966b5b2c722546779d2e4",
+        "size_in_bytes": 4919
+      },
+      {
+        "_path": "Lib/site-packages/xgboost-2.1.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/xgboost-2.1.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "4c93e729db6b4ae7bbc59fc0546929f585dcbc3ae86ec8c176cd5dbb7371e9d7",
+        "sha256_in_prefix": "4c93e729db6b4ae7bbc59fc0546929f585dcbc3ae86ec8c176cd5dbb7371e9d7",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "Lib/site-packages/xgboost-2.1.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "2b35c20701374b12c22a11a9c96f53d6dfeda19e8fd6c0ad158b86d5e6947919",
+        "sha256_in_prefix": "2b35c20701374b12c22a11a9c96f53d6dfeda19e8fd6c0ad158b86d5e6947919",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/VERSION",
+        "path_type": "hardlink",
+        "sha256": "7b3ff271f1373cfb97e9e53349794e1450f3794e4c0788c54a2060c7596da821",
+        "sha256_in_prefix": "7b3ff271f1373cfb97e9e53349794e1450f3794e4c0788c54a2060c7596da821",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3d6f2f79c9a85f6743d7a99abe206d602f6e6c2ebd798bb6a34793395a77d05e",
+        "sha256_in_prefix": "3d6f2f79c9a85f6743d7a99abe206d602f6e6c2ebd798bb6a34793395a77d05e",
+        "size_in_bytes": 1273
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "18a0f348a556d6ae58a3e5eea4c5884a002c61f911e8653c934411c48afa6736",
+        "sha256_in_prefix": "18a0f348a556d6ae58a3e5eea4c5884a002c61f911e8653c934411c48afa6736",
+        "size_in_bytes": 1227
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/__pycache__/_typing.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "3e1cdfd06c0bd4aeed4c6cce10732dd47bf03317391b015ba0bb8a999338d05e",
+        "sha256_in_prefix": "3e1cdfd06c0bd4aeed4c6cce10732dd47bf03317391b015ba0bb8a999338d05e",
+        "size_in_bytes": 1499
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/__pycache__/callback.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "bd13e74717a0762d6f1d595b5ae112aeed727596d063746e6eb71f60f7a2592a",
+        "sha256_in_prefix": "bd13e74717a0762d6f1d595b5ae112aeed727596d063746e6eb71f60f7a2592a",
+        "size_in_bytes": 17995
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/__pycache__/collective.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ff8dc7a2e3d62e3345ff9d9d6bcbe9b497365281182e99921d66c50b2001a94d",
+        "sha256_in_prefix": "ff8dc7a2e3d62e3345ff9d9d6bcbe9b497365281182e99921d66c50b2001a94d",
+        "size_in_bytes": 8227
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/__pycache__/compat.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "963932b3fb3149e324281260d30009b0a1a26e851dc72697b980cca4aa268b95",
+        "sha256_in_prefix": "963932b3fb3149e324281260d30009b0a1a26e851dc72697b980cca4aa268b95",
+        "size_in_bytes": 5141
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/__pycache__/config.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "3adbf8f191896c5b9d86994022596048b7f10a46ee60d4bf5ae633dff5e05f95",
+        "sha256_in_prefix": "3adbf8f191896c5b9d86994022596048b7f10a46ee60d4bf5ae633dff5e05f95",
+        "size_in_bytes": 5312
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/__pycache__/core.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "76a273aeccfd7d213fcde86b0bc27515f6e7db69dae18342dddf5c2a0f4fb4dd",
+        "sha256_in_prefix": "76a273aeccfd7d213fcde86b0bc27515f6e7db69dae18342dddf5c2a0f4fb4dd",
+        "size_in_bytes": 89373
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/__pycache__/data.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6415dddf5389963ad66bfe55117275b330faded7690d8ba01eda9d00fec24c2e",
+        "sha256_in_prefix": "6415dddf5389963ad66bfe55117275b330faded7690d8ba01eda9d00fec24c2e",
+        "size_in_bytes": 35577
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/__pycache__/federated.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "885268fd837f2aa504c6341cc86672ecbb93502ba04be5e3a31960d9922cfbda",
+        "sha256_in_prefix": "885268fd837f2aa504c6341cc86672ecbb93502ba04be5e3a31960d9922cfbda",
+        "size_in_bytes": 2862
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/__pycache__/libpath.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "97a997959114bf86af3cb7ee1bb8a27cf675cf567fa652e0320e58adc04cdf17",
+        "sha256_in_prefix": "97a997959114bf86af3cb7ee1bb8a27cf675cf567fa652e0320e58adc04cdf17",
+        "size_in_bytes": 2586
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/__pycache__/plotting.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "18a9d128e94336cbe2e0003c5c1da6ccda9cbad9ed93fbb10c66819fa3384325",
+        "sha256_in_prefix": "18a9d128e94336cbe2e0003c5c1da6ccda9cbad9ed93fbb10c66819fa3384325",
+        "size_in_bytes": 7910
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/__pycache__/sklearn.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4c0e9d7622914cbcbb288cafa891e4ddfce0019f8a08c9e089fc0c654851cff8",
+        "sha256_in_prefix": "4c0e9d7622914cbcbb288cafa891e4ddfce0019f8a08c9e089fc0c654851cff8",
+        "size_in_bytes": 62813
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/__pycache__/tracker.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "69c2b844e7ea4a13f9eaf5f3c267a0fbe71bab2740dc690bb78336bac92494ba",
+        "sha256_in_prefix": "69c2b844e7ea4a13f9eaf5f3c267a0fbe71bab2740dc690bb78336bac92494ba",
+        "size_in_bytes": 4175
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/__pycache__/training.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f7f149d329240f19e89f3b77a8486a1b3f635a12876654b6890a7c820af9a463",
+        "sha256_in_prefix": "f7f149d329240f19e89f3b77a8486a1b3f635a12876654b6890a7c820af9a463",
+        "size_in_bytes": 20429
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/_typing.py",
+        "path_type": "hardlink",
+        "sha256": "18418b99f8fbef96b6b6ab4101fcf89dea7d77879de92763ca8da2e8f644688a",
+        "sha256_in_prefix": "18418b99f8fbef96b6b6ab4101fcf89dea7d77879de92763ca8da2e8f644688a",
+        "size_in_bytes": 2708
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/callback.py",
+        "path_type": "hardlink",
+        "sha256": "297a137a4cb68306567572a0554ca1eecf9d6f94577ad9e9a5fb2fa28a7dab71",
+        "sha256_in_prefix": "297a137a4cb68306567572a0554ca1eecf9d6f94577ad9e9a5fb2fa28a7dab71",
+        "size_in_bytes": 20504
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/collective.py",
+        "path_type": "hardlink",
+        "sha256": "5fde529194bce03454297a49a8cf24b5677d9b015a7487d401d1da8bdd2f7ac6",
+        "sha256_in_prefix": "5fde529194bce03454297a49a8cf24b5677d9b015a7487d401d1da8bdd2f7ac6",
+        "size_in_bytes": 7916
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/compat.py",
+        "path_type": "hardlink",
+        "sha256": "db4a8971c809ff579836fc1f9504e03d995b418d46f8f0723b8c049c6ba9d347",
+        "sha256_in_prefix": "db4a8971c809ff579836fc1f9504e03d995b418d46f8f0723b8c049c6ba9d347",
+        "size_in_bytes": 6967
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/config.py",
+        "path_type": "hardlink",
+        "sha256": "f895df1ad67df2b55850649f51ca0d0ca4a32b3f36ada58a0219ec9bc26ae656",
+        "sha256_in_prefix": "f895df1ad67df2b55850649f51ca0d0ca4a32b3f36ada58a0219ec9bc26ae656",
+        "size_in_bytes": 5045
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/core.py",
+        "path_type": "hardlink",
+        "sha256": "0ebb2d302f87371b155ff5fe379e6a426a9d7146eb051f077e0339d7d16ab888",
+        "sha256_in_prefix": "0ebb2d302f87371b155ff5fe379e6a426a9d7146eb051f077e0339d7d16ab888",
+        "size_in_bytes": 108711
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/dask/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "dafb8eecc2a91fda8abeebe2ac59943b567302e0bb40c2c0a13cf55eb5ae0e42",
+        "sha256_in_prefix": "dafb8eecc2a91fda8abeebe2ac59943b567302e0bb40c2c0a13cf55eb5ae0e42",
+        "size_in_bytes": 78777
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/dask/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b2c2f2da4e392a467c770cd6ae2a0a13d576f3b2717f517437e1824e9230d2fb",
+        "sha256_in_prefix": "b2c2f2da4e392a467c770cd6ae2a0a13d576f3b2717f517437e1824e9230d2fb",
+        "size_in_bytes": 53455
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/dask/__pycache__/utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2f6f9fead2ac88feb6a3f7976e8177c07bfb54e9b8ad39ac5fb33b7d3ae077e6",
+        "sha256_in_prefix": "2f6f9fead2ac88feb6a3f7976e8177c07bfb54e9b8ad39ac5fb33b7d3ae077e6",
+        "size_in_bytes": 890
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/dask/utils.py",
+        "path_type": "hardlink",
+        "sha256": "a8692ea74bfdea8aa7adc05a001141ba5ccd1d9bfd83ff60f27e9fd6623c6c54",
+        "sha256_in_prefix": "a8692ea74bfdea8aa7adc05a001141ba5ccd1d9bfd83ff60f27e9fd6623c6c54",
+        "size_in_bytes": 874
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/data.py",
+        "path_type": "hardlink",
+        "sha256": "896c91d51f05d0619252d1ece0aa74726dea5e9cd95483597dfce9c49cc6a1f4",
+        "sha256_in_prefix": "896c91d51f05d0619252d1ece0aa74726dea5e9cd95483597dfce9c49cc6a1f4",
+        "size_in_bytes": 48532
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/federated.py",
+        "path_type": "hardlink",
+        "sha256": "2736d4598edfef43e52132151521fe154457b0706e3d9bd69837bf88e9c0e8cf",
+        "sha256_in_prefix": "2736d4598edfef43e52132151521fe154457b0706e3d9bd69837bf88e9c0e8cf",
+        "size_in_bytes": 2948
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/libpath.py",
+        "path_type": "hardlink",
+        "sha256": "3fb5b6a9adfcd0bba3396182270dee7acfa5c7ce5b81f778034d4956ade6ce19",
+        "sha256_in_prefix": "3fb5b6a9adfcd0bba3396182270dee7acfa5c7ce5b81f778034d4956ade6ce19",
+        "size_in_bytes": 2813
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/plotting.py",
+        "path_type": "hardlink",
+        "sha256": "620ec6d3911d512e785431b728ad8049aa19f1539484116928d9fcfcb57df5a5",
+        "sha256_in_prefix": "620ec6d3911d512e785431b728ad8049aa19f1539484116928d9fcfcb57df5a5",
+        "size_in_bytes": 8852
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/sklearn.py",
+        "path_type": "hardlink",
+        "sha256": "d7f0bfa04287f8400c6d6b1b5fc0337e00fbf2fa7e6e5fb586ba39d2a137ddc5",
+        "sha256_in_prefix": "d7f0bfa04287f8400c6d6b1b5fc0337e00fbf2fa7e6e5fb586ba39d2a137ddc5",
+        "size_in_bytes": 78697
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/spark/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d6651ca8ef8825f6eaf2ef6464fa4250b65df9ab056689a740c105e5e5aa3713",
+        "sha256_in_prefix": "d6651ca8ef8825f6eaf2ef6464fa4250b65df9ab056689a740c105e5e5aa3713",
+        "size_in_bytes": 536
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/spark/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e2c815f6e810e70367b72a7364a973b46dd19be790d89233f007e6141f1e02aa",
+        "sha256_in_prefix": "e2c815f6e810e70367b72a7364a973b46dd19be790d89233f007e6141f1e02aa",
+        "size_in_bytes": 613
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/spark/__pycache__/core.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e9c925b10f7960faa987ab18237ffb057069a211724c1a1e45c217503e8d5833",
+        "sha256_in_prefix": "e9c925b10f7960faa987ab18237ffb057069a211724c1a1e45c217503e8d5833",
+        "size_in_bytes": 44338
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/spark/__pycache__/data.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "08c1969addcaacfed82589d208ddef71b04c2c4d8f17635540a55bcd20f71454",
+        "sha256_in_prefix": "08c1969addcaacfed82589d208ddef71b04c2c4d8f17635540a55bcd20f71454",
+        "size_in_bytes": 8862
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/spark/__pycache__/estimator.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "10d5fbed8f59575bb461eb32df2bf9773f44277c463d7969a172db265b0e68f3",
+        "sha256_in_prefix": "10d5fbed8f59575bb461eb32df2bf9773f44277c463d7969a172db265b0e68f3",
+        "size_in_bytes": 23866
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/spark/__pycache__/params.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9f293aba67bb88e81d4d05624aaa5f30935d5899effefbe10f90ff07d4b39c2b",
+        "sha256_in_prefix": "9f293aba67bb88e81d4d05624aaa5f30935d5899effefbe10f90ff07d4b39c2b",
+        "size_in_bytes": 3910
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/spark/__pycache__/utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "db4849fa0cfffc49c208c1b5598f62460b1d991af7785365825d726b7254c546",
+        "sha256_in_prefix": "db4849fa0cfffc49c208c1b5598f62460b1d991af7785365825d726b7254c546",
+        "size_in_bytes": 7116
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/spark/core.py",
+        "path_type": "hardlink",
+        "sha256": "61f9d4277c8633c808b96e0889682c3868c427fd843d8bdf8ac083dd01e5a6a8",
+        "sha256_in_prefix": "61f9d4277c8633c808b96e0889682c3868c427fd843d8bdf8ac083dd01e5a6a8",
+        "size_in_bytes": 67912
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/spark/data.py",
+        "path_type": "hardlink",
+        "sha256": "adfccc132982e3d3c6db668edb563baf65a3e33e186372c535f1d67f59c15ae2",
+        "sha256_in_prefix": "adfccc132982e3d3c6db668edb563baf65a3e33e186372c535f1d67f59c15ae2",
+        "size_in_bytes": 12448
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/spark/estimator.py",
+        "path_type": "hardlink",
+        "sha256": "fef2e1682bbef05111fb1275c06f45ac5716e26177239183ef139ce224bb4a53",
+        "sha256_in_prefix": "fef2e1682bbef05111fb1275c06f45ac5716e26177239183ef139ce224bb4a53",
+        "size_in_bytes": 23654
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/spark/params.py",
+        "path_type": "hardlink",
+        "sha256": "24dd88fbc65e669aa5f3d4dcd636b3efae5859dca18187b7bb5a2e9f332c31cd",
+        "sha256_in_prefix": "24dd88fbc65e669aa5f3d4dcd636b3efae5859dca18187b7bb5a2e9f332c31cd",
+        "size_in_bytes": 3217
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/spark/utils.py",
+        "path_type": "hardlink",
+        "sha256": "0f623c1c107b0f7b1cb3575b52a287678ca38868a70ff083df4a8765f7c0f2e1",
+        "sha256_in_prefix": "0f623c1c107b0f7b1cb3575b52a287678ca38868a70ff083df4a8765f7c0f2e1",
+        "size_in_bytes": 6942
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/testing/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "204151747b9a1a53a86836edb70be294087f30694e483bbf69556507741dd4ba",
+        "sha256_in_prefix": "204151747b9a1a53a86836edb70be294087f30694e483bbf69556507741dd4ba",
+        "size_in_bytes": 28226
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/testing/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "28564e876b2d8e1d748a9146dfeb0dbac985299d9bc38fc0113f220b881bfa07",
+        "sha256_in_prefix": "28564e876b2d8e1d748a9146dfeb0dbac985299d9bc38fc0113f220b881bfa07",
+        "size_in_bytes": 28048
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/testing/__pycache__/continuation.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "cab98cb51e2b98051c6d0a4afb2ac18dba62c451733e59ce0ea0155f4fc46c6f",
+        "sha256_in_prefix": "cab98cb51e2b98051c6d0a4afb2ac18dba62c451733e59ce0ea0155f4fc46c6f",
+        "size_in_bytes": 1852
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/testing/__pycache__/dask.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2ed6b36b8ed706c7b7ed372758285fdde2bbb76c22e901bef5993523a4226d92",
+        "sha256_in_prefix": "2ed6b36b8ed706c7b7ed372758285fdde2bbb76c22e901bef5993523a4226d92",
+        "size_in_bytes": 2557
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/testing/__pycache__/data.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "952c3ed4cfacb25323044dbe4b6a8cbaf40a44d23b1064888e67bf5d8364311a",
+        "sha256_in_prefix": "952c3ed4cfacb25323044dbe4b6a8cbaf40a44d23b1064888e67bf5d8364311a",
+        "size_in_bytes": 19007
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/testing/__pycache__/data_iter.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d88098e1c5281c50c07d219ed6ae14abe1fc63fd4a5424c6e66a714237a04710",
+        "sha256_in_prefix": "d88098e1c5281c50c07d219ed6ae14abe1fc63fd4a5424c6e66a714237a04710",
+        "size_in_bytes": 1194
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/testing/__pycache__/federated.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "390ffdce82b34a9340e88e8520b155ace3fa7a6b232a42196e47e9e4ad14309f",
+        "sha256_in_prefix": "390ffdce82b34a9340e88e8520b155ace3fa7a6b232a42196e47e9e4ad14309f",
+        "size_in_bytes": 4182
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/testing/__pycache__/metrics.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "42bd20b71a314347b01cf706b7c4552b7cc661c0ec3289b940e6d78af6c2baed",
+        "sha256_in_prefix": "42bd20b71a314347b01cf706b7c4552b7cc661c0ec3289b940e6d78af6c2baed",
+        "size_in_bytes": 2239
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/testing/__pycache__/params.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "22b5020913be9902a8eef6ce999c71d01e4d0b6dad28409b0876d8364451440d",
+        "sha256_in_prefix": "22b5020913be9902a8eef6ce999c71d01e4d0b6dad28409b0876d8364451440d",
+        "size_in_bytes": 2123
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/testing/__pycache__/ranking.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "43e63c1181aa1fa315b2ebfe0d22c4dc5e78221ee0554095b3efeb7e8452dc22",
+        "sha256_in_prefix": "43e63c1181aa1fa315b2ebfe0d22c4dc5e78221ee0554095b3efeb7e8452dc22",
+        "size_in_bytes": 3503
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/testing/__pycache__/shared.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "496272fb73be9c3a16100f7c4fba36101e6f19aecfe14315d000e1be94d590e1",
+        "sha256_in_prefix": "496272fb73be9c3a16100f7c4fba36101e6f19aecfe14315d000e1be94d590e1",
+        "size_in_bytes": 2876
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/testing/__pycache__/updater.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ff9968788d35b4b1ad7a618b7064ee4f41d1709f133b823a3808d8a6f8bcb51e",
+        "sha256_in_prefix": "ff9968788d35b4b1ad7a618b7064ee4f41d1709f133b823a3808d8a6f8bcb51e",
+        "size_in_bytes": 9565
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/testing/continuation.py",
+        "path_type": "hardlink",
+        "sha256": "bb3e418f99ebff1959fccc62680fc2eeacd2432547d855746ccb3a184c718adc",
+        "sha256_in_prefix": "bb3e418f99ebff1959fccc62680fc2eeacd2432547d855746ccb3a184c718adc",
+        "size_in_bytes": 1919
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/testing/dask.py",
+        "path_type": "hardlink",
+        "sha256": "b36e1e693c49a40cc18b5b7252ce4c03e867635af58338b7303c287afa529945",
+        "sha256_in_prefix": "b36e1e693c49a40cc18b5b7252ce4c03e867635af58338b7303c287afa529945",
+        "size_in_bytes": 2608
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/testing/data.py",
+        "path_type": "hardlink",
+        "sha256": "f338f3aa08cfbf92dbcc7f2403cf697184321065d72704985fccbd58953f99a6",
+        "sha256_in_prefix": "f338f3aa08cfbf92dbcc7f2403cf697184321065d72704985fccbd58953f99a6",
+        "size_in_bytes": 24796
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/testing/data_iter.py",
+        "path_type": "hardlink",
+        "sha256": "2f2fc325358e8b3d51cfc6771fb8228991816ae9e14d05cf3cc61758417fb525",
+        "sha256_in_prefix": "2f2fc325358e8b3d51cfc6771fb8228991816ae9e14d05cf3cc61758417fb525",
+        "size_in_bytes": 1046
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/testing/federated.py",
+        "path_type": "hardlink",
+        "sha256": "d85bc900ef80b095a352a5f7e25d00cfd9781e1dfd43c260569a0df610549d42",
+        "sha256_in_prefix": "d85bc900ef80b095a352a5f7e25d00cfd9781e1dfd43c260569a0df610549d42",
+        "size_in_bytes": 5322
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/testing/metrics.py",
+        "path_type": "hardlink",
+        "sha256": "7e557cb54223e0ad2dd08c16485a7a97678f6db3bd2c5e4ef14e38e519440f9b",
+        "sha256_in_prefix": "7e557cb54223e0ad2dd08c16485a7a97678f6db3bd2c5e4ef14e38e519440f9b",
+        "size_in_bytes": 2469
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/testing/params.py",
+        "path_type": "hardlink",
+        "sha256": "afe8a7c4446a41f89379e2b376211536cddb168d13ea9c6e5335c31748954553",
+        "sha256_in_prefix": "afe8a7c4446a41f89379e2b376211536cddb168d13ea9c6e5335c31748954553",
+        "size_in_bytes": 3358
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/testing/ranking.py",
+        "path_type": "hardlink",
+        "sha256": "bdde919c05e2c13537cf91e8bcb1dab1f455cfdf69456b2583565fe5375d0d62",
+        "sha256_in_prefix": "bdde919c05e2c13537cf91e8bcb1dab1f455cfdf69456b2583565fe5375d0d62",
+        "size_in_bytes": 3850
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/testing/shared.py",
+        "path_type": "hardlink",
+        "sha256": "39b4c8ff78754894153c25cb789b75da18bbbd912caba1e25ced90adf2e0b754",
+        "sha256_in_prefix": "39b4c8ff78754894153c25cb789b75da18bbbd912caba1e25ced90adf2e0b754",
+        "size_in_bytes": 3114
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/testing/updater.py",
+        "path_type": "hardlink",
+        "sha256": "a021b67e89fe1db4b8a3f3a1d2b3052656d70d6bcd5a2d672dcc99220a11fd70",
+        "sha256_in_prefix": "a021b67e89fe1db4b8a3f3a1d2b3052656d70d6bcd5a2d672dcc99220a11fd70",
+        "size_in_bytes": 13749
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/tracker.py",
+        "path_type": "hardlink",
+        "sha256": "87581fa4f8df30a5e5504856e7a3198f89048683fbf661ea51f3d86b7ab5e5b7",
+        "sha256_in_prefix": "87581fa4f8df30a5e5504856e7a3198f89048683fbf661ea51f3d86b7ab5e5b7",
+        "size_in_bytes": 3542
+      },
+      {
+        "_path": "Lib/site-packages/xgboost/training.py",
+        "path_type": "hardlink",
+        "sha256": "8d8116cf0477907dd70238726d94e968811ec444aba2a5294df020cb1dd5d675",
+        "sha256_in_prefix": "8d8116cf0477907dd70238726d94e968811ec444aba2a5294df020cb1dd5d675",
+        "size_in_bytes": 21746
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c1151b46d0bc4c24d1d93fe917197f919bb069dec110044f10aefab84cad7729",
+  "size": 280776,
+  "subdir": "win-64",
+  "timestamp": 1724074236000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/py-xgboost-2.1.1-py38haa95532_0.conda",
+  "version": "2.1.1"
+}

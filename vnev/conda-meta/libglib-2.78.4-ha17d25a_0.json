@@ -1,0 +1,160 @@
+{
+  "build": "ha17d25a_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [
+    "glib 2.78.4 *_0"
+  ],
+  "depends": [
+    "libffi >=3.4,<4.0a0",
+    "libiconv >=1.16,<2.0a0",
+    "pcre2 >=10.42,<10.43.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0",
+    "zlib >=1.2.13,<1.3.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\Administrator\\anaconda3\\pkgs\\libglib-2.78.4-ha17d25a_0",
+  "files": [
+    "Library/bin/gio-2.0-0.dll",
+    "Library/bin/glib-2.0-0.dll",
+    "Library/bin/gmodule-2.0-0.dll",
+    "Library/bin/gobject-2.0-0.dll",
+    "Library/bin/gspawn-win64-helper-console.exe",
+    "Library/bin/gspawn-win64-helper.exe",
+    "Library/bin/gthread-2.0-0.dll",
+    "Library/bin/intl-8.dll",
+    "Library/include/libintl.h",
+    "Library/lib/gio-2.0.lib",
+    "Library/lib/glib-2.0.lib",
+    "Library/lib/gmodule-2.0.lib",
+    "Library/lib/gobject-2.0.lib",
+    "Library/lib/gthread-2.0.lib",
+    "Library/lib/intl.lib"
+  ],
+  "fn": "libglib-2.78.4-ha17d25a_0.conda",
+  "license": "LGPL-2.1-or-later",
+  "link": {
+    "source": "C:\\Users\\Administrator\\anaconda3\\pkgs\\libglib-2.78.4-ha17d25a_0",
+    "type": 1
+  },
+  "md5": "7c8854a3df4197545c0ce91e5da7c253",
+  "name": "libglib",
+  "package_tarball_full_path": "C:\\Users\\Administrator\\anaconda3\\pkgs\\libglib-2.78.4-ha17d25a_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/gio-2.0-0.dll",
+        "path_type": "hardlink",
+        "sha256": "a0f912b99cc9bcd8cc28215ce488420ac41dc427fceebe7362ee3f0262e833b3",
+        "sha256_in_prefix": "a0f912b99cc9bcd8cc28215ce488420ac41dc427fceebe7362ee3f0262e833b3",
+        "size_in_bytes": 1571328
+      },
+      {
+        "_path": "Library/bin/glib-2.0-0.dll",
+        "path_type": "hardlink",
+        "sha256": "f95360c66152214e68ff478f60560040d6cfed265ebcf3863e3421e5c10fc884",
+        "sha256_in_prefix": "f95360c66152214e68ff478f60560040d6cfed265ebcf3863e3421e5c10fc884",
+        "size_in_bytes": 1249792
+      },
+      {
+        "_path": "Library/bin/gmodule-2.0-0.dll",
+        "path_type": "hardlink",
+        "sha256": "8cb6617dc665f2c73c8f6164d64bd0204697a2051d2515ccce0ba3c061318e2c",
+        "sha256_in_prefix": "8cb6617dc665f2c73c8f6164d64bd0204697a2051d2515ccce0ba3c061318e2c",
+        "size_in_bytes": 18944
+      },
+      {
+        "_path": "Library/bin/gobject-2.0-0.dll",
+        "path_type": "hardlink",
+        "sha256": "8ed627aab934e0b3d95c8432a2eb26212ae31e4e101d94ea6c59e5b9fc91686d",
+        "sha256_in_prefix": "8ed627aab934e0b3d95c8432a2eb26212ae31e4e101d94ea6c59e5b9fc91686d",
+        "size_in_bytes": 300544
+      },
+      {
+        "_path": "Library/bin/gspawn-win64-helper-console.exe",
+        "path_type": "hardlink",
+        "sha256": "921133554807b4fab2a3e4434df8c068cec933d4c19f5a881a1754a2e3c2df37",
+        "sha256_in_prefix": "921133554807b4fab2a3e4434df8c068cec933d4c19f5a881a1754a2e3c2df37",
+        "size_in_bytes": 13312
+      },
+      {
+        "_path": "Library/bin/gspawn-win64-helper.exe",
+        "path_type": "hardlink",
+        "sha256": "c19afcbfe2f23fe7fee824e9be2e060892618c5d25c23f0f7790072e4555237c",
+        "sha256_in_prefix": "c19afcbfe2f23fe7fee824e9be2e060892618c5d25c23f0f7790072e4555237c",
+        "size_in_bytes": 13312
+      },
+      {
+        "_path": "Library/bin/gthread-2.0-0.dll",
+        "path_type": "hardlink",
+        "sha256": "c4387468629288331eaf3b843bec8ce773da7d4fc77cf4251991ab9c958e0cc2",
+        "sha256_in_prefix": "c4387468629288331eaf3b843bec8ce773da7d4fc77cf4251991ab9c958e0cc2",
+        "size_in_bytes": 10240
+      },
+      {
+        "_path": "Library/bin/intl-8.dll",
+        "path_type": "hardlink",
+        "sha256": "08d569709e7e9051061f973c7fa1559d9b04356a81bf620e66ca85e89cedf83e",
+        "sha256_in_prefix": "08d569709e7e9051061f973c7fa1559d9b04356a81bf620e66ca85e89cedf83e",
+        "size_in_bytes": 9728
+      },
+      {
+        "_path": "Library/include/libintl.h",
+        "path_type": "hardlink",
+        "sha256": "36c160ad164e51a56113b1d4a94df95e7bcf04df837b3db08aea03550ae93e5f",
+        "sha256_in_prefix": "36c160ad164e51a56113b1d4a94df95e7bcf04df837b3db08aea03550ae93e5f",
+        "size_in_bytes": 3852
+      },
+      {
+        "_path": "Library/lib/gio-2.0.lib",
+        "path_type": "hardlink",
+        "sha256": "fec06d612fec9aa6cd5a733dd56f5d7eede1bbd1fc183836cb09dce35b02cc2f",
+        "sha256_in_prefix": "fec06d612fec9aa6cd5a733dd56f5d7eede1bbd1fc183836cb09dce35b02cc2f",
+        "size_in_bytes": 547654
+      },
+      {
+        "_path": "Library/lib/glib-2.0.lib",
+        "path_type": "hardlink",
+        "sha256": "c263528aaf7db17c3de17129dde6f7c43cbde408719dd32a43631223ea9199e1",
+        "sha256_in_prefix": "c263528aaf7db17c3de17129dde6f7c43cbde408719dd32a43631223ea9199e1",
+        "size_in_bytes": 429508
+      },
+      {
+        "_path": "Library/lib/gmodule-2.0.lib",
+        "path_type": "hardlink",
+        "sha256": "510504c816a8366763e5fff5428644f2ebacd4d36c10dcf83631e4a391e51bd0",
+        "sha256_in_prefix": "510504c816a8366763e5fff5428644f2ebacd4d36c10dcf83631e4a391e51bd0",
+        "size_in_bytes": 4270
+      },
+      {
+        "_path": "Library/lib/gobject-2.0.lib",
+        "path_type": "hardlink",
+        "sha256": "6f777d947e45cd7c6a9488ae6a85e53037563fda822dbb656588e725d9951c86",
+        "sha256_in_prefix": "6f777d947e45cd7c6a9488ae6a85e53037563fda822dbb656588e725d9951c86",
+        "size_in_bytes": 117044
+      },
+      {
+        "_path": "Library/lib/gthread-2.0.lib",
+        "path_type": "hardlink",
+        "sha256": "96ecffed0cb412fca7115c12816a291cba757915d12a5f31c2a853387db1d494",
+        "sha256_in_prefix": "96ecffed0cb412fca7115c12816a291cba757915d12a5f31c2a853387db1d494",
+        "size_in_bytes": 2192
+      },
+      {
+        "_path": "Library/lib/intl.lib",
+        "path_type": "hardlink",
+        "sha256": "3f806bb65bdb80b0a62edfac49e8aedfa51a66507c4e11a34a22679a754ea834",
+        "sha256_in_prefix": "3f806bb65bdb80b0a62edfac49e8aedfa51a66507c4e11a34a22679a754ea834",
+        "size_in_bytes": 3586
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5bf1e18dfa7f6f5c53592e06d352eeb5df4aa7c3f01fb0209742c2ec8ad08d08",
+  "size": 1398361,
+  "subdir": "win-64",
+  "timestamp": 1708032035000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/libglib-2.78.4-ha17d25a_0.conda",
+  "version": "2.78.4"
+}
