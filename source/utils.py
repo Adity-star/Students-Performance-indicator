@@ -1,9 +1,8 @@
 import os
 import sys
 
-import numpy as np
+import numpy as np 
 import pandas as pd
-import dill
 import pickle
 from sklearn.metrics import r2_score
 from sklearn.model_selection import GridSearchCV
@@ -28,7 +27,7 @@ def evaluate_models(X_train, y_train,X_test,y_test,models,param):
 
         for i in range(len(list(models))):
             model = list(models.values())[i]
-            param=params[list(models.keys())[i]]
+            para=param[list(models.keys())[i]]
 
             gs = GridSearchCV(model,para,cv=3)
             gs.fit(X_train,y_train)
@@ -49,3 +48,6 @@ def evaluate_models(X_train, y_train,X_test,y_test,models,param):
             report[list(models.keys())[i]] = test_model_score
 
         return report
+
+    except Exception as e:
+        raise CustomException(e, sys)

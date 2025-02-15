@@ -1,7 +1,7 @@
 import sys
 from dataclasses import dataclass
 
-import numpy as np # type: ignore
+import numpy as np 
 import pandas as pd
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
@@ -11,27 +11,32 @@ from sklearn.preprocessing import OneHotEncoder,StandardScaler
 from source.exception import CustomException
 from source.logger import logging
 import os
+
 from source.utils import save_object
 
-
 @dataclass
-class DatatransformationConfig:
-    preprocessor_obj_file_path = os.path.join('artifacts','preprocessor.pk1')
+class DataTransformationConfig:
+    preprocessor_obj_file_path=os.path.join('artifacts',"proprocessor.pkl")
 
-    class DataTransformation:
-        def __init__(self):
-            self.data_transformer_config=DatatransformationConfig()
-        def get_data_transformer_object(self):
-            numerical_columns = ['Writing_sccore',"reading_score"]
+class DataTransformation:
+    def __init__(self):
+        self.data_transformation_config=DataTransformationConfig()
 
-            categorical_columns = ["gender",
+    def get_data_transformer_object(self):
+        '''
+        This function si responsible for data trnasformation
+        
+        '''
+        try:
+            numerical_columns = ["writing_score", "reading_score"]
+            categorical_columns = [
+                "gender",
                 "race_ethnicity",
                 "parental_level_of_education",
                 "lunch",
-                "test_preparation_course"
-                ]
-            
-            
+                "test_preparation_course",
+            ]
+
             num_pipeline= Pipeline(
                 steps=[
                 ("imputer",SimpleImputer(strategy="median")),
@@ -39,6 +44,7 @@ class DatatransformationConfig:
 
                 ]
             )
+
             cat_pipeline=Pipeline(
 
                 steps=[
@@ -61,15 +67,17 @@ class DatatransformationConfig:
 
 
             )
+
             return preprocessor
         
         except Exception as e:
-        raise CustomException(e,sys)
-    
+            raise CustomException(e,sys)
+        
     def initiate_data_transformation(self,train_path,test_path):
+
         try:
-            train_df = pd.read_csv(train_path)
-            test_df = pd.read_csv(test_path)
+            train_df=pd.read_csv(train_path)
+            test_df=pd.read_csv(test_path)
 
             logging.info("Read train and test data completed")
 
@@ -86,7 +94,6 @@ class DatatransformationConfig:
             input_feature_test_df=test_df.drop(columns=[target_column_name],axis=1)
             target_feature_test_df=test_df[target_column_name]
 
-            
             logging.info(
                 f"Applying preprocessing object on training dataframe and testing dataframe."
             )

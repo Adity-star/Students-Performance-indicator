@@ -1,0 +1,61 @@
+{
+  "build": "h827c3e9_9",
+  "build_number": 9,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "libbrotlicommon 1.0.9 h827c3e9_9",
+    "vc >=14.2,<15.0a0",
+    "vs2015_runtime >=14.29.30133,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\Administrator\\anaconda3\\pkgs\\libbrotlidec-1.0.9-h827c3e9_9",
+  "files": [
+    "Library/bin/brotlidec.dll",
+    "Library/lib/brotlidec.lib",
+    "Library/lib/pkgconfig/libbrotlidec.pc"
+  ],
+  "fn": "libbrotlidec-1.0.9-h827c3e9_9.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\Administrator\\anaconda3\\pkgs\\libbrotlidec-1.0.9-h827c3e9_9",
+    "type": 1
+  },
+  "md5": "f2d82d5f87f998fe99560dc0605a7b51",
+  "name": "libbrotlidec",
+  "package_tarball_full_path": "C:\\Users\\Administrator\\anaconda3\\pkgs\\libbrotlidec-1.0.9-h827c3e9_9.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/brotlidec.dll",
+        "path_type": "hardlink",
+        "sha256": "6ef500fa3782683e4e9d2c92ba440fe8e3c1dcc99772dc75aa20e3f586d1930f",
+        "sha256_in_prefix": "6ef500fa3782683e4e9d2c92ba440fe8e3c1dcc99772dc75aa20e3f586d1930f",
+        "size_in_bytes": 59152
+      },
+      {
+        "_path": "Library/lib/brotlidec.lib",
+        "path_type": "hardlink",
+        "sha256": "818ad429c1fae407bdf9b04b413b1f646b1cfe61e0ea694d20808c9efcc46ed0",
+        "sha256_in_prefix": "818ad429c1fae407bdf9b04b413b1f646b1cfe61e0ea694d20808c9efcc46ed0",
+        "size_in_bytes": 4546
+      },
+      {
+        "_path": "Library/lib/pkgconfig/libbrotlidec.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/b/abs_c415aux9ra/croot/brotli-split_1736182803933/_h_env",
+        "sha256": "66870639e1316841bf769ac9f48f525bb1a61c9593ed6964385a9f65267c9391",
+        "sha256_in_prefix": "3045055533ad2333eea345d4985883ca0d4ece844a5e204096efe98c0a242081",
+        "size_in_bytes": 423
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5a6765a76564d3012e7cfb5ad7177b6f31df8255b49b9a3e48aeddc9f5568427",
+  "size": 40734,
+  "subdir": "win-64",
+  "timestamp": 1736183205000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/libbrotlidec-1.0.9-h827c3e9_9.conda",
+  "version": "1.0.9"
+}

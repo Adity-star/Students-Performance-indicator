@@ -1,0 +1,626 @@
+{
+  "build": "py38haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "graphviz <3.0.0",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\Administrator\\anaconda3\\pkgs\\python-graphviz-0.20.1-py38haa95532_0",
+  "files": [
+    "Lib/site-packages/graphviz-0.20.1.dist-info/INSTALLER",
+    "Lib/site-packages/graphviz-0.20.1.dist-info/LICENSE.txt",
+    "Lib/site-packages/graphviz-0.20.1.dist-info/METADATA",
+    "Lib/site-packages/graphviz-0.20.1.dist-info/RECORD",
+    "Lib/site-packages/graphviz-0.20.1.dist-info/REQUESTED",
+    "Lib/site-packages/graphviz-0.20.1.dist-info/WHEEL",
+    "Lib/site-packages/graphviz-0.20.1.dist-info/direct_url.json",
+    "Lib/site-packages/graphviz-0.20.1.dist-info/top_level.txt",
+    "Lib/site-packages/graphviz/__init__.py",
+    "Lib/site-packages/graphviz/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/graphviz/__pycache__/_compat.cpython-38.pyc",
+    "Lib/site-packages/graphviz/__pycache__/_defaults.cpython-38.pyc",
+    "Lib/site-packages/graphviz/__pycache__/_tools.cpython-38.pyc",
+    "Lib/site-packages/graphviz/__pycache__/base.cpython-38.pyc",
+    "Lib/site-packages/graphviz/__pycache__/copying.cpython-38.pyc",
+    "Lib/site-packages/graphviz/__pycache__/dot.cpython-38.pyc",
+    "Lib/site-packages/graphviz/__pycache__/encoding.cpython-38.pyc",
+    "Lib/site-packages/graphviz/__pycache__/exceptions.cpython-38.pyc",
+    "Lib/site-packages/graphviz/__pycache__/graphs.cpython-38.pyc",
+    "Lib/site-packages/graphviz/__pycache__/jupyter_integration.cpython-38.pyc",
+    "Lib/site-packages/graphviz/__pycache__/piping.cpython-38.pyc",
+    "Lib/site-packages/graphviz/__pycache__/quoting.cpython-38.pyc",
+    "Lib/site-packages/graphviz/__pycache__/rendering.cpython-38.pyc",
+    "Lib/site-packages/graphviz/__pycache__/saving.cpython-38.pyc",
+    "Lib/site-packages/graphviz/__pycache__/sources.cpython-38.pyc",
+    "Lib/site-packages/graphviz/__pycache__/unflattening.cpython-38.pyc",
+    "Lib/site-packages/graphviz/_compat.py",
+    "Lib/site-packages/graphviz/_defaults.py",
+    "Lib/site-packages/graphviz/_tools.py",
+    "Lib/site-packages/graphviz/backend/__init__.py",
+    "Lib/site-packages/graphviz/backend/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/graphviz/backend/__pycache__/dot_command.cpython-38.pyc",
+    "Lib/site-packages/graphviz/backend/__pycache__/execute.cpython-38.pyc",
+    "Lib/site-packages/graphviz/backend/__pycache__/mixins.cpython-38.pyc",
+    "Lib/site-packages/graphviz/backend/__pycache__/piping.cpython-38.pyc",
+    "Lib/site-packages/graphviz/backend/__pycache__/rendering.cpython-38.pyc",
+    "Lib/site-packages/graphviz/backend/__pycache__/unflattening.cpython-38.pyc",
+    "Lib/site-packages/graphviz/backend/__pycache__/upstream_version.cpython-38.pyc",
+    "Lib/site-packages/graphviz/backend/__pycache__/viewing.cpython-38.pyc",
+    "Lib/site-packages/graphviz/backend/dot_command.py",
+    "Lib/site-packages/graphviz/backend/execute.py",
+    "Lib/site-packages/graphviz/backend/mixins.py",
+    "Lib/site-packages/graphviz/backend/piping.py",
+    "Lib/site-packages/graphviz/backend/rendering.py",
+    "Lib/site-packages/graphviz/backend/unflattening.py",
+    "Lib/site-packages/graphviz/backend/upstream_version.py",
+    "Lib/site-packages/graphviz/backend/viewing.py",
+    "Lib/site-packages/graphviz/base.py",
+    "Lib/site-packages/graphviz/copying.py",
+    "Lib/site-packages/graphviz/dot.py",
+    "Lib/site-packages/graphviz/encoding.py",
+    "Lib/site-packages/graphviz/exceptions.py",
+    "Lib/site-packages/graphviz/graphs.py",
+    "Lib/site-packages/graphviz/jupyter_integration.py",
+    "Lib/site-packages/graphviz/parameters/__init__.py",
+    "Lib/site-packages/graphviz/parameters/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/graphviz/parameters/__pycache__/base.cpython-38.pyc",
+    "Lib/site-packages/graphviz/parameters/__pycache__/engines.cpython-38.pyc",
+    "Lib/site-packages/graphviz/parameters/__pycache__/formats.cpython-38.pyc",
+    "Lib/site-packages/graphviz/parameters/__pycache__/formatters.cpython-38.pyc",
+    "Lib/site-packages/graphviz/parameters/__pycache__/mixins.cpython-38.pyc",
+    "Lib/site-packages/graphviz/parameters/__pycache__/renderers.cpython-38.pyc",
+    "Lib/site-packages/graphviz/parameters/base.py",
+    "Lib/site-packages/graphviz/parameters/engines.py",
+    "Lib/site-packages/graphviz/parameters/formats.py",
+    "Lib/site-packages/graphviz/parameters/formatters.py",
+    "Lib/site-packages/graphviz/parameters/mixins.py",
+    "Lib/site-packages/graphviz/parameters/renderers.py",
+    "Lib/site-packages/graphviz/piping.py",
+    "Lib/site-packages/graphviz/quoting.py",
+    "Lib/site-packages/graphviz/rendering.py",
+    "Lib/site-packages/graphviz/saving.py",
+    "Lib/site-packages/graphviz/sources.py",
+    "Lib/site-packages/graphviz/unflattening.py"
+  ],
+  "fn": "python-graphviz-0.20.1-py38haa95532_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\Administrator\\anaconda3\\pkgs\\python-graphviz-0.20.1-py38haa95532_0",
+    "type": 1
+  },
+  "md5": "8107da88805c5c546b27f337116e63c5",
+  "name": "python-graphviz",
+  "package_tarball_full_path": "C:\\Users\\Administrator\\anaconda3\\pkgs\\python-graphviz-0.20.1-py38haa95532_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/graphviz-0.20.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/graphviz-0.20.1.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "a68dc7b805330b5d55d79421acf54ff3a7c5aecd00504c46db5791e1bc7c87ce",
+        "sha256_in_prefix": "a68dc7b805330b5d55d79421acf54ff3a7c5aecd00504c46db5791e1bc7c87ce",
+        "size_in_bytes": 1107
+      },
+      {
+        "_path": "Lib/site-packages/graphviz-0.20.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "56ce7bdd7c1356533cc7ab3c66ed05956c79f37702052fff3fdb77f0bd7f7163",
+        "sha256_in_prefix": "56ce7bdd7c1356533cc7ab3c66ed05956c79f37702052fff3fdb77f0bd7f7163",
+        "size_in_bytes": 12029
+      },
+      {
+        "_path": "Lib/site-packages/graphviz-0.20.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "f505559e9fe92be9ced21863522f6d879dabe96affdff27129c2147873ba2e74",
+        "sha256_in_prefix": "f505559e9fe92be9ced21863522f6d879dabe96affdff27129c2147873ba2e74",
+        "size_in_bytes": 5142
+      },
+      {
+        "_path": "Lib/site-packages/graphviz-0.20.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/graphviz-0.20.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "Lib/site-packages/graphviz-0.20.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "2dd4f72d80678bc5f3b480b3dc7f0e6fd78d4c3447755c0b7c8986565b22e263",
+        "sha256_in_prefix": "2dd4f72d80678bc5f3b480b3dc7f0e6fd78d4c3447755c0b7c8986565b22e263",
+        "size_in_bytes": 114
+      },
+      {
+        "_path": "Lib/site-packages/graphviz-0.20.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "11ef7447489c5045d2d00bc825ba95b8dbda8276a4ba13f95a2a6cd0b0e442ec",
+        "sha256_in_prefix": "11ef7447489c5045d2d00bc825ba95b8dbda8276a4ba13f95a2a6cd0b0e442ec",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "449fc11325717be081cbf199b720ba6dd10b1a30b0c9256f1869c2f9e28b49e5",
+        "sha256_in_prefix": "449fc11325717be081cbf199b720ba6dd10b1a30b0c9256f1869c2f9e28b49e5",
+        "size_in_bytes": 3504
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "76ed46d287b38bb1d9c01f212c55ebbff974882d7843ad5f5c0c6218b79f31d2",
+        "sha256_in_prefix": "76ed46d287b38bb1d9c01f212c55ebbff974882d7843ad5f5c0c6218b79f31d2",
+        "size_in_bytes": 2279
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/__pycache__/_compat.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ef7934ac35b80578e30d296053b0a42e85d30ec3e8d189bc95087ae1542810d9",
+        "sha256_in_prefix": "ef7934ac35b80578e30d296053b0a42e85d30ec3e8d189bc95087ae1542810d9",
+        "size_in_bytes": 1536
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/__pycache__/_defaults.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8a5201b52e374027c1c84cd71c8f0307f4eea612adbaf530a511a7d68d1a1cab",
+        "sha256_in_prefix": "8a5201b52e374027c1c84cd71c8f0307f4eea612adbaf530a511a7d68d1a1cab",
+        "size_in_bytes": 2223
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/__pycache__/_tools.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "cc63f9cc87f80b6342b3aeef89706270dffc17465b7def64bc34fcf76787aea7",
+        "sha256_in_prefix": "cc63f9cc87f80b6342b3aeef89706270dffc17465b7def64bc34fcf76787aea7",
+        "size_in_bytes": 6164
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/__pycache__/base.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1fe556fd2dced6904be42e037593c0a841cb62651b6585a9b58199087301ff9e",
+        "sha256_in_prefix": "1fe556fd2dced6904be42e037593c0a841cb62651b6585a9b58199087301ff9e",
+        "size_in_bytes": 1405
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/__pycache__/copying.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "41a22fce297ba2bf14717adb7fbfaf897eaef96f95610033225e23bf856ad55d",
+        "sha256_in_prefix": "41a22fce297ba2bf14717adb7fbfaf897eaef96f95610033225e23bf856ad55d",
+        "size_in_bytes": 838
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/__pycache__/dot.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "664d5b034a1a21b388cae837746ee9f2117f52b20dec3a036a74b16f1627cf94",
+        "sha256_in_prefix": "664d5b034a1a21b388cae837746ee9f2117f52b20dec3a036a74b16f1627cf94",
+        "size_in_bytes": 11453
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/__pycache__/encoding.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9e9526c3335531b799859afe5987a7c504598928daa94e3cd128d08833c87961",
+        "sha256_in_prefix": "9e9526c3335531b799859afe5987a7c504598928daa94e3cd128d08833c87961",
+        "size_in_bytes": 1484
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/__pycache__/exceptions.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4cc268c5672fc3999c8f160bb031cc5ec3f7bb9170d397f0345386f9558f8620",
+        "sha256_in_prefix": "4cc268c5672fc3999c8f160bb031cc5ec3f7bb9170d397f0345386f9558f8620",
+        "size_in_bytes": 1554
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/__pycache__/graphs.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d2824ab0bc70775a8ee61d47707fc4d193c537f15840d0ca4cc6947d54f9e136",
+        "sha256_in_prefix": "d2824ab0bc70775a8ee61d47707fc4d193c537f15840d0ca4cc6947d54f9e136",
+        "size_in_bytes": 4524
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/__pycache__/jupyter_integration.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4903b986175978554196c7f19081bccc40fd1f50d3d0780eacfa87578bd62267",
+        "sha256_in_prefix": "4903b986175978554196c7f19081bccc40fd1f50d3d0780eacfa87578bd62267",
+        "size_in_bytes": 4561
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/__pycache__/piping.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1748d10224e19583c243aed99066430988eec561f43c16073d165e695a1c30f2",
+        "sha256_in_prefix": "1748d10224e19583c243aed99066430988eec561f43c16073d165e695a1c30f2",
+        "size_in_bytes": 4885
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/__pycache__/quoting.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6b34aa9781e3b96ac1852af753f06cd6b1e7be93857edd4f75baf2d040297b43",
+        "sha256_in_prefix": "6b34aa9781e3b96ac1852af753f06cd6b1e7be93857edd4f75baf2d040297b43",
+        "size_in_bytes": 6173
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/__pycache__/rendering.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "22c9cdb0817339a9af2dcae115807693a05b3ccadb297c50ff12814db0e27557",
+        "sha256_in_prefix": "22c9cdb0817339a9af2dcae115807693a05b3ccadb297c50ff12814db0e27557",
+        "size_in_bytes": 6842
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/__pycache__/saving.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f66cd68572f38db59c660afb4b55498e411d2c6e0931cabfffb55fac6a28413c",
+        "sha256_in_prefix": "f66cd68572f38db59c660afb4b55498e411d2c6e0931cabfffb55fac6a28413c",
+        "size_in_bytes": 2707
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/__pycache__/sources.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "019709c7bf3ea1a430a7878f574b4bc75a888f91f5c2fcda265a575fe54271b4",
+        "sha256_in_prefix": "019709c7bf3ea1a430a7878f574b4bc75a888f91f5c2fcda265a575fe54271b4",
+        "size_in_bytes": 5303
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/__pycache__/unflattening.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "fa52c4126b6707b9bdba14225d9c4f96ef4e5a9999828d393c37bb4d271367c1",
+        "sha256_in_prefix": "fa52c4126b6707b9bdba14225d9c4f96ef4e5a9999828d393c37bb4d271367c1",
+        "size_in_bytes": 2356
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/_compat.py",
+        "path_type": "hardlink",
+        "sha256": "329544e246558a152a32d7bcf8864fa3893c7becb51e8037d9e80523c6f80e8f",
+        "sha256_in_prefix": "329544e246558a152a32d7bcf8864fa3893c7becb51e8037d9e80523c6f80e8f",
+        "size_in_bytes": 1670
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/_defaults.py",
+        "path_type": "hardlink",
+        "sha256": "0756104c3cf27a9f00c3fc4d7de5baf579d67c7b8c7c09a782cee7f4a725b413",
+        "sha256_in_prefix": "0756104c3cf27a9f00c3fc4d7de5baf579d67c7b8c7c09a782cee7f4a725b413",
+        "size_in_bytes": 2255
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/_tools.py",
+        "path_type": "hardlink",
+        "sha256": "6bf49a186bed8d4d784e3acf865ad9c379490048f272cd98c45e5a5d2344826e",
+        "sha256_in_prefix": "6bf49a186bed8d4d784e3acf865ad9c379490048f272cd98c45e5a5d2344826e",
+        "size_in_bytes": 6047
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/backend/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8bde7cd80cb2a38e8537eeea306e20682f7fc1725af25a41dbb71b7f550c7591",
+        "sha256_in_prefix": "8bde7cd80cb2a38e8537eeea306e20682f7fc1725af25a41dbb71b7f550c7591",
+        "size_in_bytes": 778
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/backend/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "cf9a8fbd43b2bb7359c6f0f3ce26f78e3bb86b5a52a6d97ad5e03889885928fe",
+        "sha256_in_prefix": "cf9a8fbd43b2bb7359c6f0f3ce26f78e3bb86b5a52a6d97ad5e03889885928fe",
+        "size_in_bytes": 896
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/backend/__pycache__/dot_command.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9f922e8a8ea5458320c25cfd4f8c0a34103ffff6bf11f87d3749061f0e6a0ed4",
+        "sha256_in_prefix": "9f922e8a8ea5458320c25cfd4f8c0a34103ffff6bf11f87d3749061f0e6a0ed4",
+        "size_in_bytes": 1565
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/backend/__pycache__/execute.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f93171f69a50092a819a7803e62890eb3a658b6c3c43b7fe2fe0822b575b0a12",
+        "sha256_in_prefix": "f93171f69a50092a819a7803e62890eb3a658b6c3c43b7fe2fe0822b575b0a12",
+        "size_in_bytes": 4192
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/backend/__pycache__/mixins.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "97070c266484c3e1df129356322d552071f76be70258a4c2b063c5450608b2fd",
+        "sha256_in_prefix": "97070c266484c3e1df129356322d552071f76be70258a4c2b063c5450608b2fd",
+        "size_in_bytes": 2869
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/backend/__pycache__/piping.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9363bab37d8591716833f712df4bedd0cc539b9db854e5e6c7d5fb9d850699b6",
+        "sha256_in_prefix": "9363bab37d8591716833f712df4bedd0cc539b9db854e5e6c7d5fb9d850699b6",
+        "size_in_bytes": 8014
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/backend/__pycache__/rendering.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "423964407151412d2df1e778688402bdc6b089ff9c00af22d1e3ccb2612903eb",
+        "sha256_in_prefix": "423964407151412d2df1e778688402bdc6b089ff9c00af22d1e3ccb2612903eb",
+        "size_in_bytes": 10705
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/backend/__pycache__/unflattening.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5fc6875a8ef160e5df9dd58e76a89b59dd5a35a751e9f258bd9816f7250cea6c",
+        "sha256_in_prefix": "5fc6875a8ef160e5df9dd58e76a89b59dd5a35a751e9f258bd9816f7250cea6c",
+        "size_in_bytes": 2117
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/backend/__pycache__/upstream_version.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a35dc242a2ae47707c6d4f46ecb697191ea47e311e522dcefa8a106e52067418",
+        "sha256_in_prefix": "a35dc242a2ae47707c6d4f46ecb697191ea47e311e522dcefa8a106e52067418",
+        "size_in_bytes": 2273
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/backend/__pycache__/viewing.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "15491f0d6554250becf02ccd96b072949ec0886ef27647e4f57436ee1d383684",
+        "sha256_in_prefix": "15491f0d6554250becf02ccd96b072949ec0886ef27647e4f57436ee1d383684",
+        "size_in_bytes": 2306
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/backend/dot_command.py",
+        "path_type": "hardlink",
+        "sha256": "c42706344980e3c7f231c2c46dbcaaf824a8d788f81f6fef67b45ac96a27e335",
+        "sha256_in_prefix": "c42706344980e3c7f231c2c46dbcaaf824a8d788f81f6fef67b45ac96a27e335",
+        "size_in_bytes": 1473
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/backend/execute.py",
+        "path_type": "hardlink",
+        "sha256": "aca556579586a21e5118e3c484adc09b41f1524fc902c3f06f45c04bcfdbea2e",
+        "sha256_in_prefix": "aca556579586a21e5118e3c484adc09b41f1524fc902c3f06f45c04bcfdbea2e",
+        "size_in_bytes": 4517
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/backend/mixins.py",
+        "path_type": "hardlink",
+        "sha256": "f3b7c662a478d211500a9edcfb59596be01bf8eccb15547a5bd5e98c534e6e30",
+        "sha256_in_prefix": "f3b7c662a478d211500a9edcfb59596be01bf8eccb15547a5bd5e98c534e6e30",
+        "size_in_bytes": 2319
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/backend/piping.py",
+        "path_type": "hardlink",
+        "sha256": "fb52df138c0b42e644db9b8c882c0fd75602cb70b9788af0f2918a52cf77b156",
+        "sha256_in_prefix": "fb52df138c0b42e644db9b8c882c0fd75602cb70b9788af0f2918a52cf77b156",
+        "size_in_bytes": 8982
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/backend/rendering.py",
+        "path_type": "hardlink",
+        "sha256": "311ef15bb4af6dee398ca12f6c3533fdd48f1e0cf95d6f5d4d2a90757415807b",
+        "sha256_in_prefix": "311ef15bb4af6dee398ca12f6c3533fdd48f1e0cf95d6f5d4d2a90757415807b",
+        "size_in_bytes": 13339
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/backend/unflattening.py",
+        "path_type": "hardlink",
+        "sha256": "8693d290ade56ec658057097f3491c02207121f37edd0a164f9c3979005c5d84",
+        "sha256_in_prefix": "8693d290ade56ec658057097f3491c02207121f37edd0a164f9c3979005c5d84",
+        "size_in_bytes": 2140
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/backend/upstream_version.py",
+        "path_type": "hardlink",
+        "sha256": "fdff7f2ec9536f23a3eaa74771931e27eee1e58bd80015c757350885fbe05338",
+        "sha256_in_prefix": "fdff7f2ec9536f23a3eaa74771931e27eee1e58bd80015c757350885fbe05338",
+        "size_in_bytes": 2015
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/backend/viewing.py",
+        "path_type": "hardlink",
+        "sha256": "b62b7d0f622c44c751774cec87750c9fed656d12bf1b5fa3127941a0596b66f1",
+        "sha256_in_prefix": "b62b7d0f622c44c751774cec87750c9fed656d12bf1b5fa3127941a0596b66f1",
+        "size_in_bytes": 2255
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/base.py",
+        "path_type": "hardlink",
+        "sha256": "f1e73d702985e6a94570e2fc3cb881f97612c7cbb20e52f72ff4a5fe95e2fe14",
+        "sha256_in_prefix": "f1e73d702985e6a94570e2fc3cb881f97612c7cbb20e52f72ff4a5fe95e2fe14",
+        "size_in_bytes": 965
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/copying.py",
+        "path_type": "hardlink",
+        "sha256": "4d5cf71940b8fb3fd3d1b114154370cd40ca5819e5723a646ebdc6a78c652e65",
+        "sha256_in_prefix": "4d5cf71940b8fb3fd3d1b114154370cd40ca5819e5723a646ebdc6a78c652e65",
+        "size_in_bytes": 565
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/dot.py",
+        "path_type": "hardlink",
+        "sha256": "e25cf2e44b5ac2cb6ee3e3165007eed1bdb81dbd926362cec596de04d8ab2927",
+        "sha256_in_prefix": "e25cf2e44b5ac2cb6ee3e3165007eed1bdb81dbd926362cec596de04d8ab2927",
+        "size_in_bytes": 12469
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/encoding.py",
+        "path_type": "hardlink",
+        "sha256": "2d5a7b5b9ac023ef1b81a5ff411722ecd7e8509e4f5cd29725bb8f2c86ac41fa",
+        "sha256_in_prefix": "2d5a7b5b9ac023ef1b81a5ff411722ecd7e8509e4f5cd29725bb8f2c86ac41fa",
+        "size_in_bytes": 1107
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "5e29e4a1987d3434f05584f8fb6aa9fa9e992a59959180a1a246ccf962e41f78",
+        "sha256_in_prefix": "5e29e4a1987d3434f05584f8fb6aa9fa9e992a59959180a1a246ccf962e41f78",
+        "size_in_bytes": 1073
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/graphs.py",
+        "path_type": "hardlink",
+        "sha256": "9eda9ace19b5303ff8ded9a28f3bf8e127fb9593e70a66c2d429ae9d5e7df255",
+        "sha256_in_prefix": "9eda9ace19b5303ff8ded9a28f3bf8e127fb9593e70a66c2d429ae9d5e7df255",
+        "size_in_bytes": 4425
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/jupyter_integration.py",
+        "path_type": "hardlink",
+        "sha256": "e5a4f35a758d17e0b8d1cab6a21909f387fea6eb4dc830a467a0fc686becaac3",
+        "sha256_in_prefix": "e5a4f35a758d17e0b8d1cab6a21909f387fea6eb4dc830a467a0fc686becaac3",
+        "size_in_bytes": 4451
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/parameters/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c5013937614369330bd0c9993f527c1130f8c033124e2720c1f94bd394386083",
+        "sha256_in_prefix": "c5013937614369330bd0c9993f527c1130f8c033124e2720c1f94bd394386083",
+        "size_in_bytes": 482
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/parameters/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "09bc3dc21ce5fb0ba8245b8e4d25dd529d89c6d0432c0a833065760ba44b68aa",
+        "sha256_in_prefix": "09bc3dc21ce5fb0ba8245b8e4d25dd529d89c6d0432c0a833065760ba44b68aa",
+        "size_in_bytes": 611
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/parameters/__pycache__/base.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1a074b1ba75816b98a32f9b8ddcc5f7d399f9697118da5e898f21c3d57009756",
+        "sha256_in_prefix": "1a074b1ba75816b98a32f9b8ddcc5f7d399f9697118da5e898f21c3d57009756",
+        "size_in_bytes": 774
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/parameters/__pycache__/engines.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6801a809da01da3f98024d4531ae2fbf2ab9a8f64b0601e961c4d5b355e63a60",
+        "sha256_in_prefix": "6801a809da01da3f98024d4531ae2fbf2ab9a8f64b0601e961c4d5b355e63a60",
+        "size_in_bytes": 1962
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/parameters/__pycache__/formats.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4fa025e31114abae0d262d3b47f630a331cb51ee5695c3f2f4791fbc57f3a0ab",
+        "sha256_in_prefix": "4fa025e31114abae0d262d3b47f630a331cb51ee5695c3f2f4791fbc57f3a0ab",
+        "size_in_bytes": 2424
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/parameters/__pycache__/formatters.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "07cd72f05d1769f579e0ca04d16fd1274d92520b88afe7f9fb36ac1b1c032268",
+        "sha256_in_prefix": "07cd72f05d1769f579e0ca04d16fd1274d92520b88afe7f9fb36ac1b1c032268",
+        "size_in_bytes": 2020
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/parameters/__pycache__/mixins.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8d84c2357369d4ad6105203fe72504e6f2d00b87473816009a54752f208ac572",
+        "sha256_in_prefix": "8d84c2357369d4ad6105203fe72504e6f2d00b87473816009a54752f208ac572",
+        "size_in_bytes": 1283
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/parameters/__pycache__/renderers.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7ed8d716d4b0f3accbaf7f2a25d05b00fb19ff522c31561d32d07e2861e337c9",
+        "sha256_in_prefix": "7ed8d716d4b0f3accbaf7f2a25d05b00fb19ff522c31561d32d07e2861e337c9",
+        "size_in_bytes": 2074
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/parameters/base.py",
+        "path_type": "hardlink",
+        "sha256": "2beb78fe861b7abc40f29b3628cd8272ba1f925fc0b053f6e93d51f950411a36",
+        "sha256_in_prefix": "2beb78fe861b7abc40f29b3628cd8272ba1f925fc0b053f6e93d51f950411a36",
+        "size_in_bytes": 465
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/parameters/engines.py",
+        "path_type": "hardlink",
+        "sha256": "adc8ae18514eed28c8c3d6246337ab847fa3e739c5d2c74b83449758709ff1c3",
+        "sha256_in_prefix": "adc8ae18514eed28c8c3d6246337ab847fa3e739c5d2c74b83449758709ff1c3",
+        "size_in_bytes": 1716
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/parameters/formats.py",
+        "path_type": "hardlink",
+        "sha256": "c8378dace84bcd797680a7812d379ee6a9850ebb68a1d23bcebf7a4393ff6f69",
+        "sha256_in_prefix": "c8378dace84bcd797680a7812d379ee6a9850ebb68a1d23bcebf7a4393ff6f69",
+        "size_in_bytes": 2433
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/parameters/formatters.py",
+        "path_type": "hardlink",
+        "sha256": "058852ef13ce3b268f0fb7cff597a77db7e30b7cd3375e4cf87ea1a93bdfc45b",
+        "sha256_in_prefix": "058852ef13ce3b268f0fb7cff597a77db7e30b7cd3375e4cf87ea1a93bdfc45b",
+        "size_in_bytes": 1867
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/parameters/mixins.py",
+        "path_type": "hardlink",
+        "sha256": "043bf9d04eebb08ab1c23d35a9203a18967208e6eeea6882874c3af6adeaf9aa",
+        "sha256_in_prefix": "043bf9d04eebb08ab1c23d35a9203a18967208e6eeea6882874c3af6adeaf9aa",
+        "size_in_bytes": 1446
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/parameters/renderers.py",
+        "path_type": "hardlink",
+        "sha256": "ee6f291d35cda7fe995709a0389ceaa8288eae0d461ecdbd9e5b9a0bdb040345",
+        "sha256_in_prefix": "ee6f291d35cda7fe995709a0389ceaa8288eae0d461ecdbd9e5b9a0bdb040345",
+        "size_in_bytes": 2001
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/piping.py",
+        "path_type": "hardlink",
+        "sha256": "b3ddb6835b83387c578f41c91575f7354d41eb13fcf84e10a58060094759cc53",
+        "sha256_in_prefix": "b3ddb6835b83387c578f41c91575f7354d41eb13fcf84e10a58060094759cc53",
+        "size_in_bytes": 7137
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/quoting.py",
+        "path_type": "hardlink",
+        "sha256": "edd77568c2cd3fad9cb82daf56968731beb8f14208ddb3fdde5bc351cab6705b",
+        "sha256_in_prefix": "edd77568c2cd3fad9cb82daf56968731beb8f14208ddb3fdde5bc351cab6705b",
+        "size_in_bytes": 6564
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/rendering.py",
+        "path_type": "hardlink",
+        "sha256": "1aa805563cae2b004a120d1592a002cc492f70a9aef30f5cf05604032987241a",
+        "sha256_in_prefix": "1aa805563cae2b004a120d1592a002cc492f70a9aef30f5cf05604032987241a",
+        "size_in_bytes": 8197
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/saving.py",
+        "path_type": "hardlink",
+        "sha256": "1b208b9c5ce4affe8355148ee1b7d95ba29f750d5dd5c195429ddbdb6b4905b5",
+        "sha256_in_prefix": "1b208b9c5ce4affe8355148ee1b7d95ba29f750d5dd5c195429ddbdb6b4905b5",
+        "size_in_bytes": 2717
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/sources.py",
+        "path_type": "hardlink",
+        "sha256": "535a3c67b3e640e58e0372f809e91b8e81a33fc06408bbe3009ab14694f0dc8b",
+        "sha256_in_prefix": "535a3c67b3e640e58e0372f809e91b8e81a33fc06408bbe3009ab14694f0dc8b",
+        "size_in_bytes": 6070
+      },
+      {
+        "_path": "Lib/site-packages/graphviz/unflattening.py",
+        "path_type": "hardlink",
+        "sha256": "d79ea7b97bf710a605d603f6118121c89d8c015bde79b52d8b239716185ed040",
+        "sha256_in_prefix": "d79ea7b97bf710a605d603f6118121c89d8c015bde79b52d8b239716185ed040",
+        "size_in_bytes": 2498
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "112d50a44cbef9cac31169da7269a9ccce6bae89146a8a5da8298c588ea5cc96",
+  "size": 64734,
+  "subdir": "win-64",
+  "timestamp": 1660063548000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/python-graphviz-0.20.1-py38haa95532_0.conda",
+  "version": "0.20.1"
+}

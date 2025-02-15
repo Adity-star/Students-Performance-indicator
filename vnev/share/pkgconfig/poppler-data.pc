@@ -1,0 +1,8 @@
+poppler_datadir=C:bbs_aa483wkccmootpoppler-data_1673863551054_h_env/share/poppler
+
+Name: poppler-data
+Description: Encoding files for use with poppler
+Version: 0.4.11
+
+Cflags: -DPOPPLER_DATADIR=C:bbs_aa483wkccmootpoppler-data_1673863551054_h_env/share/poppler
+

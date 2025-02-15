@@ -1,0 +1,61 @@
+{
+  "build": "h827c3e9_9",
+  "build_number": 9,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "libbrotlicommon 1.0.9 h827c3e9_9",
+    "vc >=14.2,<15.0a0",
+    "vs2015_runtime >=14.29.30133,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\Administrator\\anaconda3\\pkgs\\libbrotlienc-1.0.9-h827c3e9_9",
+  "files": [
+    "Library/bin/brotlienc.dll",
+    "Library/lib/brotlienc.lib",
+    "Library/lib/pkgconfig/libbrotlienc.pc"
+  ],
+  "fn": "libbrotlienc-1.0.9-h827c3e9_9.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\Administrator\\anaconda3\\pkgs\\libbrotlienc-1.0.9-h827c3e9_9",
+    "type": 1
+  },
+  "md5": "9658fa5e5351c057732e6bc01a53bd61",
+  "name": "libbrotlienc",
+  "package_tarball_full_path": "C:\\Users\\Administrator\\anaconda3\\pkgs\\libbrotlienc-1.0.9-h827c3e9_9.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/brotlienc.dll",
+        "path_type": "hardlink",
+        "sha256": "352136017db0c1f4ccba08c326f92a61d3fafa84d88d0e8d912436e76197acb6",
+        "sha256_in_prefix": "352136017db0c1f4ccba08c326f92a61d3fafa84d88d0e8d912436e76197acb6",
+        "size_in_bytes": 3093776
+      },
+      {
+        "_path": "Library/lib/brotlienc.lib",
+        "path_type": "hardlink",
+        "sha256": "5fc35f211a4dd89b11c3c18d3f73e526b310dfd6e96c1bbc73b4a2e14010ebd5",
+        "sha256_in_prefix": "5fc35f211a4dd89b11c3c18d3f73e526b310dfd6e96c1bbc73b4a2e14010ebd5",
+        "size_in_bytes": 4082
+      },
+      {
+        "_path": "Library/lib/pkgconfig/libbrotlienc.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/b/abs_c415aux9ra/croot/brotli-split_1736182803933/_h_env",
+        "sha256": "fbb0366a10ae1650427dbd2f17241ccdc861cd2fc722eec01c68e6c6105788be",
+        "sha256_in_prefix": "34afe362e60afe31193af2f3f6ee46aae086b2b03158e37065a26f3cc8a50559",
+        "size_in_bytes": 423
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "923baf423e3909d03c7e185ec8c2d68e73c0527c91fe82b91366d2901f245deb",
+  "size": 266789,
+  "subdir": "win-64",
+  "timestamp": 1736183274000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/libbrotlienc-1.0.9-h827c3e9_9.conda",
+  "version": "1.0.9"
+}

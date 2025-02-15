@@ -1,0 +1,32 @@
+{
+  "build": "py38haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "py-xgboost 2.1.1 py38haa95532_0",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\Administrator\\anaconda3\\pkgs\\xgboost-2.1.1-py38haa95532_0",
+  "files": [],
+  "fn": "xgboost-2.1.1-py38haa95532_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "C:\\Users\\Administrator\\anaconda3\\pkgs\\xgboost-2.1.1-py38haa95532_0",
+    "type": 1
+  },
+  "md5": "52eef99a4d24f297457e20753ff9be72",
+  "name": "xgboost",
+  "package_tarball_full_path": "C:\\Users\\Administrator\\anaconda3\\pkgs\\xgboost-2.1.1-py38haa95532_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "xgboost",
+  "sha256": "6012c0e4b566659f8ef746c7589b6deba5191a5fd0fc05c4d5384b3d2603a249",
+  "size": 11988,
+  "subdir": "win-64",
+  "timestamp": 1724074308000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/xgboost-2.1.1-py38haa95532_0.conda",
+  "version": "2.1.1"
+}

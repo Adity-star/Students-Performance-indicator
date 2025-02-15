@@ -1,0 +1,577 @@
+{
+  "build": "hf458a27_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "cairo >=1.16.0,<2.0a0",
+    "freetype >=2.10.4,<3.0a0",
+    "graphite2 >=1.3.14,<2.0a0",
+    "icu >=73.1,<74.0a0",
+    "libglib >=2.78.4,<3.0a0",
+    "vc >=14.2,<15.0a0",
+    "vs2015_runtime >=14.29.30133,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\Administrator\\anaconda3\\pkgs\\harfbuzz-10.2.0-hf458a27_0",
+  "files": [
+    "Library/bin/harfbuzz-cairo.dll",
+    "Library/bin/harfbuzz-gobject.dll",
+    "Library/bin/harfbuzz-icu.dll",
+    "Library/bin/harfbuzz-subset.dll",
+    "Library/bin/harfbuzz.dll",
+    "Library/bin/hb-info.exe",
+    "Library/bin/hb-ot-shape-closure.exe",
+    "Library/bin/hb-shape.exe",
+    "Library/bin/hb-subset.exe",
+    "Library/bin/hb-view.exe",
+    "Library/include/harfbuzz/hb-aat-layout.h",
+    "Library/include/harfbuzz/hb-aat.h",
+    "Library/include/harfbuzz/hb-blob.h",
+    "Library/include/harfbuzz/hb-buffer.h",
+    "Library/include/harfbuzz/hb-cairo.h",
+    "Library/include/harfbuzz/hb-common.h",
+    "Library/include/harfbuzz/hb-cplusplus.hh",
+    "Library/include/harfbuzz/hb-deprecated.h",
+    "Library/include/harfbuzz/hb-draw.h",
+    "Library/include/harfbuzz/hb-face.h",
+    "Library/include/harfbuzz/hb-features.h",
+    "Library/include/harfbuzz/hb-font.h",
+    "Library/include/harfbuzz/hb-ft.h",
+    "Library/include/harfbuzz/hb-gdi.h",
+    "Library/include/harfbuzz/hb-glib.h",
+    "Library/include/harfbuzz/hb-gobject-enums.h",
+    "Library/include/harfbuzz/hb-gobject-structs.h",
+    "Library/include/harfbuzz/hb-gobject.h",
+    "Library/include/harfbuzz/hb-graphite2.h",
+    "Library/include/harfbuzz/hb-icu.h",
+    "Library/include/harfbuzz/hb-map.h",
+    "Library/include/harfbuzz/hb-ot-color.h",
+    "Library/include/harfbuzz/hb-ot-deprecated.h",
+    "Library/include/harfbuzz/hb-ot-font.h",
+    "Library/include/harfbuzz/hb-ot-layout.h",
+    "Library/include/harfbuzz/hb-ot-math.h",
+    "Library/include/harfbuzz/hb-ot-meta.h",
+    "Library/include/harfbuzz/hb-ot-metrics.h",
+    "Library/include/harfbuzz/hb-ot-name.h",
+    "Library/include/harfbuzz/hb-ot-shape.h",
+    "Library/include/harfbuzz/hb-ot-var.h",
+    "Library/include/harfbuzz/hb-ot.h",
+    "Library/include/harfbuzz/hb-paint.h",
+    "Library/include/harfbuzz/hb-set.h",
+    "Library/include/harfbuzz/hb-shape-plan.h",
+    "Library/include/harfbuzz/hb-shape.h",
+    "Library/include/harfbuzz/hb-style.h",
+    "Library/include/harfbuzz/hb-subset-serialize.h",
+    "Library/include/harfbuzz/hb-subset.h",
+    "Library/include/harfbuzz/hb-unicode.h",
+    "Library/include/harfbuzz/hb-uniscribe.h",
+    "Library/include/harfbuzz/hb-version.h",
+    "Library/include/harfbuzz/hb.h",
+    "Library/lib/cmake/harfbuzz/harfbuzz-config.cmake",
+    "Library/lib/girepository-1.0/HarfBuzz-0.0.typelib",
+    "Library/lib/harfbuzz-cairo.lib",
+    "Library/lib/harfbuzz-gobject.lib",
+    "Library/lib/harfbuzz-icu.lib",
+    "Library/lib/harfbuzz-subset.lib",
+    "Library/lib/harfbuzz.lib",
+    "Library/lib/pkgconfig/harfbuzz-cairo.pc",
+    "Library/lib/pkgconfig/harfbuzz-gobject.pc",
+    "Library/lib/pkgconfig/harfbuzz-icu.pc",
+    "Library/lib/pkgconfig/harfbuzz-subset.pc",
+    "Library/lib/pkgconfig/harfbuzz.pc",
+    "Library/share/gir-1.0/HarfBuzz-0.0.gir"
+  ],
+  "fn": "harfbuzz-10.2.0-hf458a27_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\Administrator\\anaconda3\\pkgs\\harfbuzz-10.2.0-hf458a27_0",
+    "type": 1
+  },
+  "md5": "a69190a4892d8253f5bcda87fb058cdf",
+  "name": "harfbuzz",
+  "package_tarball_full_path": "C:\\Users\\Administrator\\anaconda3\\pkgs\\harfbuzz-10.2.0-hf458a27_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/harfbuzz-cairo.dll",
+        "path_type": "hardlink",
+        "sha256": "c86ee8d4850e171bee348e4574aa2b0385cf8020d8ea1be2d013c4bd1ee07442",
+        "sha256_in_prefix": "c86ee8d4850e171bee348e4574aa2b0385cf8020d8ea1be2d013c4bd1ee07442",
+        "size_in_bytes": 30992
+      },
+      {
+        "_path": "Library/bin/harfbuzz-gobject.dll",
+        "path_type": "hardlink",
+        "sha256": "e182ea2916477297a0a92257e97d6d67c54cc559d17240989858cac92ac7b803",
+        "sha256_in_prefix": "e182ea2916477297a0a92257e97d6d67c54cc559d17240989858cac92ac7b803",
+        "size_in_bytes": 101136
+      },
+      {
+        "_path": "Library/bin/harfbuzz-icu.dll",
+        "path_type": "hardlink",
+        "sha256": "9d193a174ac59e10fe2518907730ac1ed22919fd80f25ff48622a875c8f3bef1",
+        "sha256_in_prefix": "9d193a174ac59e10fe2518907730ac1ed22919fd80f25ff48622a875c8f3bef1",
+        "size_in_bytes": 25360
+      },
+      {
+        "_path": "Library/bin/harfbuzz-subset.dll",
+        "path_type": "hardlink",
+        "sha256": "0c9bd879bff3ad487d2be995f68b632240cf152d0f7000cd90b0fec0e03dca1c",
+        "sha256_in_prefix": "0c9bd879bff3ad487d2be995f68b632240cf152d0f7000cd90b0fec0e03dca1c",
+        "size_in_bytes": 1211152
+      },
+      {
+        "_path": "Library/bin/harfbuzz.dll",
+        "path_type": "hardlink",
+        "sha256": "482f5ff418a72059975ef9c5759e74e0ddca44637f3110039c6889e936e8df2f",
+        "sha256_in_prefix": "482f5ff418a72059975ef9c5759e74e0ddca44637f3110039c6889e936e8df2f",
+        "size_in_bytes": 1107216
+      },
+      {
+        "_path": "Library/bin/hb-info.exe",
+        "path_type": "hardlink",
+        "sha256": "8b522bb1a4e73687e87480e9e9482de7f38a453ded04c09bb0754cef9d1990c9",
+        "sha256_in_prefix": "8b522bb1a4e73687e87480e9e9482de7f38a453ded04c09bb0754cef9d1990c9",
+        "size_in_bytes": 59664
+      },
+      {
+        "_path": "Library/bin/hb-ot-shape-closure.exe",
+        "path_type": "hardlink",
+        "sha256": "85284752889ed5a12532880438024bf16d1c57ead770756bd7426ec5868bbc94",
+        "sha256_in_prefix": "85284752889ed5a12532880438024bf16d1c57ead770756bd7426ec5868bbc94",
+        "size_in_bytes": 46864
+      },
+      {
+        "_path": "Library/bin/hb-shape.exe",
+        "path_type": "hardlink",
+        "sha256": "211525ea6edcf6dd5386ee3cfd66d5b427160fa78a0b297f5fea57d5911ed668",
+        "sha256_in_prefix": "211525ea6edcf6dd5386ee3cfd66d5b427160fa78a0b297f5fea57d5911ed668",
+        "size_in_bytes": 56080
+      },
+      {
+        "_path": "Library/bin/hb-subset.exe",
+        "path_type": "hardlink",
+        "sha256": "37ff1fbaca33da2d0f7c360f501d76e50c2f39bfd5debe71414feacb4d5690b2",
+        "sha256_in_prefix": "37ff1fbaca33da2d0f7c360f501d76e50c2f39bfd5debe71414feacb4d5690b2",
+        "size_in_bytes": 53520
+      },
+      {
+        "_path": "Library/bin/hb-view.exe",
+        "path_type": "hardlink",
+        "sha256": "00a332598b61b28e9ca79bbc2e38fca76ec3086ce8033b71b65af40feff56b2a",
+        "sha256_in_prefix": "00a332598b61b28e9ca79bbc2e38fca76ec3086ce8033b71b65af40feff56b2a",
+        "size_in_bytes": 68368
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-aat-layout.h",
+        "path_type": "hardlink",
+        "sha256": "19260855effa365dabbea60543813bdb88c67835aa347b7970e416906f3ff392",
+        "sha256_in_prefix": "19260855effa365dabbea60543813bdb88c67835aa347b7970e416906f3ff392",
+        "size_in_bytes": 57382
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-aat.h",
+        "path_type": "hardlink",
+        "sha256": "bce10093cad39cfbd5355d763368b22a04ae2bec9289ef0642e5f752bd6e79ff",
+        "sha256_in_prefix": "bce10093cad39cfbd5355d763368b22a04ae2bec9289ef0642e5f752bd6e79ff",
+        "size_in_bytes": 1243
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-blob.h",
+        "path_type": "hardlink",
+        "sha256": "710fe0a1be3b3a344154939be9bf6cc30674f6abd4ae0fcc0d3144b9d6b9a6bd",
+        "sha256_in_prefix": "710fe0a1be3b3a344154939be9bf6cc30674f6abd4ae0fcc0d3144b9d6b9a6bd",
+        "size_in_bytes": 4731
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-buffer.h",
+        "path_type": "hardlink",
+        "sha256": "b06340169292c099b98f5ed45b1fd2023c6a18c4eb5dc9f5d199595f7e1c0fdc",
+        "sha256_in_prefix": "b06340169292c099b98f5ed45b1fd2023c6a18c4eb5dc9f5d199595f7e1c0fdc",
+        "size_in_bytes": 29083
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-cairo.h",
+        "path_type": "hardlink",
+        "sha256": "ca71ef1a2f5210ed65294fb9f96b90973a2baa60e2ef8c2702404e13fd3b186d",
+        "sha256_in_prefix": "ca71ef1a2f5210ed65294fb9f96b90973a2baa60e2ef8c2702404e13fd3b186d",
+        "size_in_bytes": 3097
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-common.h",
+        "path_type": "hardlink",
+        "sha256": "845874a26fe0891a87bf3fc7d878f1f435d043b655e1620b90a762de3ee71f67",
+        "sha256_in_prefix": "845874a26fe0891a87bf3fc7d878f1f435d043b655e1620b90a762de3ee71f67",
+        "size_in_bytes": 30956
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-cplusplus.hh",
+        "path_type": "hardlink",
+        "sha256": "c876fcc980aa6c9e1ee59bece5724f32076f60d9acf998beedaa8519e9aece8a",
+        "sha256_in_prefix": "c876fcc980aa6c9e1ee59bece5724f32076f60d9acf998beedaa8519e9aece8a",
+        "size_in_bytes": 6262
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-deprecated.h",
+        "path_type": "hardlink",
+        "sha256": "ed70e36ecf19a0f6dd27854f56d60e74c84a58a45df4812d8f10ea542b15f9bf",
+        "sha256_in_prefix": "ed70e36ecf19a0f6dd27854f56d60e74c84a58a45df4812d8f10ea542b15f9bf",
+        "size_in_bytes": 10231
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-draw.h",
+        "path_type": "hardlink",
+        "sha256": "14cc448eddea74ded7a620f03134213dd1fcd024c885cbea442aa29eac9eb919",
+        "sha256_in_prefix": "14cc448eddea74ded7a620f03134213dd1fcd024c885cbea442aa29eac9eb919",
+        "size_in_bytes": 10118
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-face.h",
+        "path_type": "hardlink",
+        "sha256": "b4309a46cffea13b36496397d358209a40b1bb9355f263c0965c062cf622db2f",
+        "sha256_in_prefix": "b4309a46cffea13b36496397d358209a40b1bb9355f263c0965c062cf622db2f",
+        "size_in_bytes": 5715
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-features.h",
+        "path_type": "hardlink",
+        "sha256": "14eccf077c7ae9b1574be7d063f9ee1e5eeff4d0b1759633fbc1fef60fc5cab9",
+        "sha256_in_prefix": "14eccf077c7ae9b1574be7d063f9ee1e5eeff4d0b1759633fbc1fef60fc5cab9",
+        "size_in_bytes": 2616
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-font.h",
+        "path_type": "hardlink",
+        "sha256": "646f1c5d1172b97c0c6a7d3a3def938b61dda8c74ea9972145e6a5a531731a51",
+        "sha256_in_prefix": "646f1c5d1172b97c0c6a7d3a3def938b61dda8c74ea9972145e6a5a531731a51",
+        "size_in_bytes": 37315
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-ft.h",
+        "path_type": "hardlink",
+        "sha256": "6419942d87002cc38853cba77c88f56c0ffd04b7bb13c98d84a8c3af402cbef0",
+        "sha256_in_prefix": "6419942d87002cc38853cba77c88f56c0ffd04b7bb13c98d84a8c3af402cbef0",
+        "size_in_bytes": 4586
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-gdi.h",
+        "path_type": "hardlink",
+        "sha256": "746f8a752275816dccc24952203b8763305489c4d4f4f1a3ce9180a7eb0945d5",
+        "sha256_in_prefix": "746f8a752275816dccc24952203b8763305489c4d4f4f1a3ce9180a7eb0945d5",
+        "size_in_bytes": 1255
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-glib.h",
+        "path_type": "hardlink",
+        "sha256": "05402cbae1f44fc2587ea8f59afa235107f9e568e5a4aa93c12ed2727de74aac",
+        "sha256_in_prefix": "05402cbae1f44fc2587ea8f59afa235107f9e568e5a4aa93c12ed2727de74aac",
+        "size_in_bytes": 1625
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-gobject-enums.h",
+        "path_type": "hardlink",
+        "sha256": "ac81736df71ef636b5a49aee25db62e526e652b7b10246f5c95034472fb286ec",
+        "sha256_in_prefix": "ac81736df71ef636b5a49aee25db62e526e652b7b10246f5c95034472fb286ec",
+        "size_in_bytes": 6109
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-gobject-structs.h",
+        "path_type": "hardlink",
+        "sha256": "43eb2a7d5a6ac89b9b1d30df278c9ceae429f4f309a54e3bdc0a4bd86b5fac6b",
+        "sha256_in_prefix": "43eb2a7d5a6ac89b9b1d30df278c9ceae429f4f309a54e3bdc0a4bd86b5fac6b",
+        "size_in_bytes": 4236
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-gobject.h",
+        "path_type": "hardlink",
+        "sha256": "98639ef9185189a968e606db6429a024c363809df2b654297f6aecb59236dbc4",
+        "sha256_in_prefix": "98639ef9185189a968e606db6429a024c363809df2b654297f6aecb59236dbc4",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-graphite2.h",
+        "path_type": "hardlink",
+        "sha256": "98180c71960325ae9a9c886859547f56899504072da6935ae977cb5e7b2586da",
+        "sha256_in_prefix": "98180c71960325ae9a9c886859547f56899504072da6935ae977cb5e7b2586da",
+        "size_in_bytes": 1723
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-icu.h",
+        "path_type": "hardlink",
+        "sha256": "f2eaa478e7ecc533be912d75288e6fa8c2157191edbc03b2bd68c302bbcd0f6e",
+        "sha256_in_prefix": "f2eaa478e7ecc533be912d75288e6fa8c2157191edbc03b2bd68c302bbcd0f6e",
+        "size_in_bytes": 1525
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-map.h",
+        "path_type": "hardlink",
+        "sha256": "b073aa19718e43e3535caeddc0015a4e45a89032a76059cc5ab8f3f0d220bece",
+        "sha256_in_prefix": "b073aa19718e43e3535caeddc0015a4e45a89032a76059cc5ab8f3f0d220bece",
+        "size_in_bytes": 3347
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-ot-color.h",
+        "path_type": "hardlink",
+        "sha256": "3216a51aabe5e3961e2c11af854ddad57471009cccd8790e2d26e18eaa1f139c",
+        "sha256_in_prefix": "3216a51aabe5e3961e2c11af854ddad57471009cccd8790e2d26e18eaa1f139c",
+        "size_in_bytes": 4471
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-ot-deprecated.h",
+        "path_type": "hardlink",
+        "sha256": "c3a9878ac0633d5e6d7e16821114ad4555458a6924100581f0d16fef5728b1c4",
+        "sha256_in_prefix": "c3a9878ac0633d5e6d7e16821114ad4555458a6924100581f0d16fef5728b1c4",
+        "size_in_bytes": 4130
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-ot-font.h",
+        "path_type": "hardlink",
+        "sha256": "e62d178aa73ef9c80b08d3c076db3e99bb8cb4e8219e978e793ef7ffe965f8f1",
+        "sha256_in_prefix": "e62d178aa73ef9c80b08d3c076db3e99bb8cb4e8219e978e793ef7ffe965f8f1",
+        "size_in_bytes": 1410
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-ot-layout.h",
+        "path_type": "hardlink",
+        "sha256": "a178b541f07052c97471f4a23a5851d624bcadedd7633c1af7a21a2c294f3c8d",
+        "sha256_in_prefix": "a178b541f07052c97471f4a23a5851d624bcadedd7633c1af7a21a2c294f3c8d",
+        "size_in_bytes": 18997
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-ot-math.h",
+        "path_type": "hardlink",
+        "sha256": "4e737e5ed9dcb3db18a64534a1ff2faf638ef720dc30db0ee821324099432f90",
+        "sha256_in_prefix": "4e737e5ed9dcb3db18a64534a1ff2faf638ef720dc30db0ee821324099432f90",
+        "size_in_bytes": 13761
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-ot-meta.h",
+        "path_type": "hardlink",
+        "sha256": "1d38c9bcbc0d417f8b7e0e818c2f5f9b83d2abddc39f2f116cc0ae84157a572d",
+        "sha256_in_prefix": "1d38c9bcbc0d417f8b7e0e818c2f5f9b83d2abddc39f2f116cc0ae84157a572d",
+        "size_in_bytes": 2553
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-ot-metrics.h",
+        "path_type": "hardlink",
+        "sha256": "c65239f100590cf1b1f647bba6ccd1a548a4e89cb80978601ca3050e9884e724",
+        "sha256_in_prefix": "c65239f100590cf1b1f647bba6ccd1a548a4e89cb80978601ca3050e9884e724",
+        "size_in_bytes": 6020
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-ot-name.h",
+        "path_type": "hardlink",
+        "sha256": "5be924687f71a0f98149b1987f3de3fd766ed9e84c4e144250e97048a36cb1ac",
+        "sha256_in_prefix": "5be924687f71a0f98149b1987f3de3fd766ed9e84c4e144250e97048a36cb1ac",
+        "size_in_bytes": 5536
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-ot-shape.h",
+        "path_type": "hardlink",
+        "sha256": "3b7a14d01eb04ff51ac59f1e0ead8df2a3952e6c7e7d81344c6925cd00d9b52f",
+        "sha256_in_prefix": "3b7a14d01eb04ff51ac59f1e0ead8df2a3952e6c7e7d81344c6925cd00d9b52f",
+        "size_in_bytes": 1757
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-ot-var.h",
+        "path_type": "hardlink",
+        "sha256": "9c438bc34f43afcc95c3f5f390b929903156af93e19473fc29daa650d98cf20e",
+        "sha256_in_prefix": "9c438bc34f43afcc95c3f5f390b929903156af93e19473fc29daa650d98cf20e",
+        "size_in_bytes": 5209
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-ot.h",
+        "path_type": "hardlink",
+        "sha256": "c5c821c47756741bae7a0121f440391a28d5e188824469f2281dd08b8c655a16",
+        "sha256_in_prefix": "c5c821c47756741bae7a0121f440391a28d5e188824469f2281dd08b8c655a16",
+        "size_in_bytes": 1502
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-paint.h",
+        "path_type": "hardlink",
+        "sha256": "a2847755d2a9da0e1b8ccbf09c7fa746cb71e1e963cfd92441cf068e5179dccd",
+        "sha256_in_prefix": "a2847755d2a9da0e1b8ccbf09c7fa746cb71e1e963cfd92441cf068e5179dccd",
+        "size_in_bytes": 39768
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-set.h",
+        "path_type": "hardlink",
+        "sha256": "0ee36c1a0926e51bb2a050687930db464b8e719f5823cd93a0c96226b8ccb783",
+        "sha256_in_prefix": "0ee36c1a0926e51bb2a050687930db464b8e719f5823cd93a0c96226b8ccb783",
+        "size_in_bytes": 5054
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-shape-plan.h",
+        "path_type": "hardlink",
+        "sha256": "03555c82558fa347e96549ec99698fae790c2cfb9ee795c5ea48ff4134e06224",
+        "sha256_in_prefix": "03555c82558fa347e96549ec99698fae790c2cfb9ee795c5ea48ff4134e06224",
+        "size_in_bytes": 4121
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-shape.h",
+        "path_type": "hardlink",
+        "sha256": "3adfcf510853bc118a120b7633c0e4d15134e4ac4bdf7911cb85511887e7e328",
+        "sha256_in_prefix": "3adfcf510853bc118a120b7633c0e4d15134e4ac4bdf7911cb85511887e7e328",
+        "size_in_bytes": 2344
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-style.h",
+        "path_type": "hardlink",
+        "sha256": "6e88aec3ae6db176b37e4d6089923f78859134a26fd12b33b40b772e91673b5a",
+        "sha256_in_prefix": "6e88aec3ae6db176b37e4d6089923f78859134a26fd12b33b40b772e91673b5a",
+        "size_in_bytes": 3340
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-subset-serialize.h",
+        "path_type": "hardlink",
+        "sha256": "cd0a15ab76193618e82077b53735338d4c5581d7c1718c3af2fafeac1161b13a",
+        "sha256_in_prefix": "cd0a15ab76193618e82077b53735338d4c5581d7c1718c3af2fafeac1161b13a",
+        "size_in_bytes": 2639
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-subset.h",
+        "path_type": "hardlink",
+        "sha256": "c4757d1fc603a0128c3eb17dd6ee8f511ca7b1dd1eda26bcdff4098202bbd639",
+        "sha256_in_prefix": "c4757d1fc603a0128c3eb17dd6ee8f511ca7b1dd1eda26bcdff4098202bbd639",
+        "size_in_bytes": 9557
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-unicode.h",
+        "path_type": "hardlink",
+        "sha256": "6131f0eb9e411fa392101f58793f4e4347ec3bc6fe45226736b186004cea8038",
+        "sha256_in_prefix": "6131f0eb9e411fa392101f58793f4e4347ec3bc6fe45226736b186004cea8038",
+        "size_in_bytes": 22980
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-uniscribe.h",
+        "path_type": "hardlink",
+        "sha256": "fad494ab421c382ef5d0264472e2f1b6527e0af165444103b71cc7447e9dc5e2",
+        "sha256_in_prefix": "fad494ab421c382ef5d0264472e2f1b6527e0af165444103b71cc7447e9dc5e2",
+        "size_in_bytes": 1391
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb-version.h",
+        "path_type": "hardlink",
+        "sha256": "a6873e73b3228f1397504cfa09bfb1b1df861e304674b0d20f5841d2eb44c69c",
+        "sha256_in_prefix": "a6873e73b3228f1397504cfa09bfb1b1df861e304674b0d20f5841d2eb44c69c",
+        "size_in_bytes": 2597
+      },
+      {
+        "_path": "Library/include/harfbuzz/hb.h",
+        "path_type": "hardlink",
+        "sha256": "31a1b53db3ee4395916e6d4f105b2c64772b8037bbb97d0e6d1e4a905eb6c6c9",
+        "sha256_in_prefix": "31a1b53db3ee4395916e6d4f105b2c64772b8037bbb97d0e6d1e4a905eb6c6c9",
+        "size_in_bytes": 1555
+      },
+      {
+        "_path": "Library/lib/cmake/harfbuzz/harfbuzz-config.cmake",
+        "path_type": "hardlink",
+        "sha256": "5f313f1eccd137ffc9a573b7ad140abd9e5f9de2866af926cc48355d71e1f776",
+        "sha256_in_prefix": "5f313f1eccd137ffc9a573b7ad140abd9e5f9de2866af926cc48355d71e1f776",
+        "size_in_bytes": 2106
+      },
+      {
+        "_path": "Library/lib/girepository-1.0/HarfBuzz-0.0.typelib",
+        "path_type": "hardlink",
+        "sha256": "175a2a1aa0383eb7f4aabc0ef57c7baa2fe60f453da087248099e7fc8bd3c7d9",
+        "sha256_in_prefix": "175a2a1aa0383eb7f4aabc0ef57c7baa2fe60f453da087248099e7fc8bd3c7d9",
+        "size_in_bytes": 149200
+      },
+      {
+        "_path": "Library/lib/harfbuzz-cairo.lib",
+        "path_type": "hardlink",
+        "sha256": "dd4dbe6e71b4c75db1ce0a2a8ee15ae11211a6b715953b9be511bcee56360bab",
+        "sha256_in_prefix": "dd4dbe6e71b4c75db1ce0a2a8ee15ae11211a6b715953b9be511bcee56360bab",
+        "size_in_bytes": 4314
+      },
+      {
+        "_path": "Library/lib/harfbuzz-gobject.lib",
+        "path_type": "hardlink",
+        "sha256": "d26b017435d3f567d16e9d335e552aafd77ff5b52d394baf4804bca974d298ac",
+        "sha256_in_prefix": "d26b017435d3f567d16e9d335e552aafd77ff5b52d394baf4804bca974d298ac",
+        "size_in_bytes": 16670
+      },
+      {
+        "_path": "Library/lib/harfbuzz-icu.lib",
+        "path_type": "hardlink",
+        "sha256": "2d007177977b88ffab50042966df78833162d68d99efa8cc5ee3b081a89981d2",
+        "sha256_in_prefix": "2d007177977b88ffab50042966df78833162d68d99efa8cc5ee3b081a89981d2",
+        "size_in_bytes": 2422
+      },
+      {
+        "_path": "Library/lib/harfbuzz-subset.lib",
+        "path_type": "hardlink",
+        "sha256": "39d73acbeb994c27ea378b3cf7b8977be76e88162c9b2c53b4db73c3a5d4a006",
+        "sha256_in_prefix": "39d73acbeb994c27ea378b3cf7b8977be76e88162c9b2c53b4db73c3a5d4a006",
+        "size_in_bytes": 10354
+      },
+      {
+        "_path": "Library/lib/harfbuzz.lib",
+        "path_type": "hardlink",
+        "sha256": "2b6f6f9fef75135ba3377e155622ea31701fc30fb1ace048a86cd13fca143241",
+        "sha256_in_prefix": "2b6f6f9fef75135ba3377e155622ea31701fc30fb1ace048a86cd13fca143241",
+        "size_in_bytes": 131656
+      },
+      {
+        "_path": "Library/lib/pkgconfig/harfbuzz-cairo.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/b/abs_ea_g7b0twc/croot/harfbuzz_1738920099247/_h_env",
+        "sha256": "b67280532238a427dda98af563b21d0d9b5f4f8ec8fe56c12c5c1813b70f3c4d",
+        "sha256_in_prefix": "d040cdbf4efa799dac6b5319f6e3474a045701d4b14c8e968bd45469485f8c39",
+        "size_in_bytes": 465
+      },
+      {
+        "_path": "Library/lib/pkgconfig/harfbuzz-gobject.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/b/abs_ea_g7b0twc/croot/harfbuzz_1738920099247/_h_env",
+        "sha256": "10709f9ed9c4f74ed1f27bf69a18b98f8fbb2bae3372b7e3292c0111b7c7b332",
+        "sha256_in_prefix": "64c91cd3493f6952547d2b886d017b81e0d6608a99fe60ba704a536d461b6ec7",
+        "size_in_bytes": 378
+      },
+      {
+        "_path": "Library/lib/pkgconfig/harfbuzz-icu.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/b/abs_ea_g7b0twc/croot/harfbuzz_1738920099247/_h_env",
+        "sha256": "fe6ec741c8d3912923d9fb89e279758894dbff66708fb415c6bff4c95941b89b",
+        "sha256_in_prefix": "e89364843872a64528401ab35fa14b92cc882c76f67a234b37aba96a960f37f6",
+        "size_in_bytes": 356
+      },
+      {
+        "_path": "Library/lib/pkgconfig/harfbuzz-subset.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/b/abs_ea_g7b0twc/croot/harfbuzz_1738920099247/_h_env",
+        "sha256": "f9d2597178f66b31a3a585d86add30adfb1f735c7552aab1d19349f5fdd14df1",
+        "sha256_in_prefix": "da12647e4c4e80697bc1395d70856122a3ec39965009dd94d6fd934c1a08fe03",
+        "size_in_bytes": 305
+      },
+      {
+        "_path": "Library/lib/pkgconfig/harfbuzz.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/b/abs_ea_g7b0twc/croot/harfbuzz_1738920099247/_h_env",
+        "sha256": "0f449c405477175f742604df1393bf2ee9446049f8db1f80b0139cc3575e6ba5",
+        "sha256_in_prefix": "16c9d7dfe1dd17553b8fc15e0377ae298f1dbfa9e42ce0420012600e2f1323d3",
+        "size_in_bytes": 389
+      },
+      {
+        "_path": "Library/share/gir-1.0/HarfBuzz-0.0.gir",
+        "path_type": "hardlink",
+        "sha256": "5ba0f5dab43c4dc11e59c6faf92999c6711a421708941c74ce5e0373968af62a",
+        "sha256_in_prefix": "5ba0f5dab43c4dc11e59c6faf92999c6711a421708941c74ce5e0373968af62a",
+        "size_in_bytes": 1347942
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "6fe87e4b57c94767549fce01f4bb466edcc2c87cb875862233bc131e1a06a8a0",
+  "size": 1229011,
+  "subdir": "win-64",
+  "timestamp": 1738920496000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/harfbuzz-10.2.0-hf458a27_0.conda",
+  "version": "10.2.0"
+}
