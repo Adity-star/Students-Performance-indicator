@@ -35,14 +35,14 @@ The **Students Performance Indicator** is a data-driven project aimed at analyzi
 ├── 📁 source              # Source code for preprocessing and modeling
 │   ├── components         # Core components of the application
 |   |     ├──__init__.py
-|   |     ├── data_ingestion.py
-|   |     ├──data_transformation.py
-|   |     ├──model_trainer.py  
-|   |
-|   ├── pipeline           # Data processing and ML pipeline scripts
-|   |       ├──__init__.py
-|   |       ├── predict_pipeline.py
-|   |       ├──train_pipeline.py
+│   |     ├── data_ingestion.py
+│   |     ├──data_transformation.py
+│   |     ├──model_trainer.py  
+│   |
+│   ├── pipeline           # Data processing and ML pipeline scripts
+│   |       ├──__init__.py
+│   |       ├── predict_pipeline.py
+│   |       ├──train_pipeline.py
 │   ├── __init__.py        # Package initializer
 │   ├── exception.py       # Custom exception handling
 │   ├── logger.py          # Logging utility
