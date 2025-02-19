@@ -1,6 +1,5 @@
 # 📊 Students Performance Indicator
 
-![Project Banner](https://via.placeholder.com/1000x300.png?text=Students+Performance+Indicator)
 ![Screenshot (199)](https://github.com/user-attachments/assets/d976672a-81cd-4f92-8b4b-1b1f4e2b9f70)
 
 
@@ -23,12 +22,41 @@ The **Students Performance Indicator** is a data-driven project aimed at analyzi
 ## 📂 Project Structure
 ```bash
 📂 Students-Performance-Indicator
-├── 📁 data                # Raw and processed data files
-├── 📁 notebooks           # Jupyter notebooks for analysis
-├── 📁 src                 # Source code for preprocessing and modeling
-├── 📄 app.py              # Deployment script (if applicable)
+├── 📁 .ebextensions       # Elastic Beanstalk configuration
+├── 📁 .vscode             # VS Code workspace settings
+├── 📁 artifacts           # Model artifacts and saved outputs
+├── 📁 catboost_info       # CatBoost model information
+├── 📁 logs                # Logging information
+├── 📁 mlruns              # MLflow tracking experiments
+├── 📁 notebook            # Jupyter notebooks for analysis
+│   ├── 1.EDA STUDENT PERFORMANCE.ipynb        # Exploratory Data Analysis
+│   ├── 2.MODEL TRAINING.ipynb  # Model Training
+│   ├── mlflow.db          # MLflow database for experiment tracking
+├── 📁 source              # Source code for preprocessing and modeling
+│   ├── components         # Core components of the application
+|   |     ├──__init__.py
+|   |     ├── data_ingestion.py
+|   |     ├──data_transformation.py
+|   |     ├──model_trainer.py  
+|   |
+│   ├── pipeline           # Data processing and ML pipeline scripts
+|   |       ├──__init__.py
+|   |      ├── predict_pipeline.py
+|   |       ├──train_pipeline.py
+│   ├── __init__.py        # Package initializer
+│   ├── exception.py       # Custom exception handling
+│   ├── logger.py          # Logging utility
+│   ├── utils.py           # Helper functions
+├── 📁 template            # Templates for UI or deployment
+|    ├──home.html
+|    ├──index.htme
+├── 📁 venv                # Virtual environment
+├── 📄 .gitignore          # Git ignore configuration
+├── 📄 README.md           # Project documentation
+├── 📄 app.py              # Main application script
+├── 📄 application.py      # Alternate application script
 ├── 📄 requirements.txt    # Dependencies list
-└── 📄 README.md           # Project documentation
+└── 📄 setup.py            # Setup script for installation
 ```
 
 ## 🔍 Exploratory Data Analysis (EDA)
@@ -44,8 +72,9 @@ The **Students Performance Indicator** is a data-driven project aimed at analyzi
 ## 📈 Model Performance
 | Model            | Accuracy (%) |
 |-----------------|-------------|
-| Linear Regression | 85.4        |
-| Random Forest    | 91.2        |
+| Linear Regression | 87.97       |
+| Ridge             | 88.06
+| Random Forest    | 85.45       |
 | XGBoost         | 93.5        |
 
 ## 🚀 Getting Started
@@ -75,7 +104,7 @@ Contributions are welcome! Feel free to fork the repository, raise issues, and s
 This project is licensed under the MIT License.
 
 ## 🌟 Connect with Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/adity-star/)  [![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/Adity-star)
+[![LinkedIn](https://www.linkedin.com/in/aditya-akuskar-27b43533a/)(https://www.linkedin.com/in/adity-star/)  [![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/Adity-star)
 
 ---
 
