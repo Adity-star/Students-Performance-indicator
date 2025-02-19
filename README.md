@@ -104,7 +104,7 @@ Contributions are welcome! Feel free to fork the repository, raise issues, and s
 This project is licensed under the MIT License.
 
 ## 🌟 Connect with Me
-[![LinkedIn](https://www.linkedin.com/in/aditya-akuskar-27b43533a/)( [![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/Adity-star)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/aditya-akuskar-27b43533a/)  [![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/Adity-star)
 
 ---
 
