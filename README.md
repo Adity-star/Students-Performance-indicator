@@ -34,22 +34,22 @@ The **Students Performance Indicator** is a data-driven project aimed at analyzi
 │   ├── mlflow.db          # MLflow database for experiment tracking
 ├── 📁 source              # Source code for preprocessing and modeling
 │   ├── components         # Core components of the application
-|   |     ├──__init__.py
-│   |     ├── data_ingestion.py
-│   |     ├──data_transformation.py
-│   |     ├──model_trainer.py  
-│   |
+|   │     ├──__init__.py
+│   │     ├── data_ingestion.py
+│   │     ├──data_transformation.py
+│   │     ├──model_trainer.py  
+│   │
 │   ├── pipeline           # Data processing and ML pipeline scripts
-│   |       ├──__init__.py
-│   |       ├── predict_pipeline.py
-│   |       ├──train_pipeline.py
+│   │       ├──__init__.py
+│   │       ├── predict_pipeline.py
+│   │       ├──train_pipeline.py
 │   ├── __init__.py        # Package initializer
 │   ├── exception.py       # Custom exception handling
 │   ├── logger.py          # Logging utility
 │   ├── utils.py           # Helper functions
 ├── 📁 template            # Templates for UI or deployment
-|    ├──home.html
-|    ├──index.htme
+│    ├──home.html
+│    ├──index.htme
 ├── 📁 venv                # Virtual environment
 ├── 📄 .gitignore          # Git ignore configuration
 ├── 📄 README.md           # Project documentation
